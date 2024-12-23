@@ -1,0 +1,53 @@
+# ドメイン2:GitHubリポジトリの操作
+
+## リポジトリのナビゲーション
+
+リポジトリのナビゲーションを確認する。
+
+- 先ほど作成した`foundations-hands-on-1`リポジトリをgithub.comで開く
+- ブランチの選択やファイルの一覧があり、READMEやLICENSEが表示されている事を確認する
+- 画面右側にリポジトリの各種メタ情報が表示されていることを確認する
+
+## テンプレートリポジトリ
+
+テンプレートリポジトリについて確認する。
+
+- `foundaitons-hands-on-1`リポジトリのナビゲーションのSettingsにアクセスする
+- Generalの`Template repository`にチェックを入れる
+- ナビゲーションのCodeで、右上の「Use this template」を押して、テンプレートから`foundations-hands-on-2`という新しいパブリックリポジトリを作成する
+
+## ブランチの作成
+
+github.com上でのブランチの作成方法を確認する。
+
+- `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、ナビゲーションのCodeでブランチ選択のプルダンを開き、検索で`update-readme-2`と入れてブランチを作る
+
+## ファイルの追加
+
+github.com上でのファイルの追加方法を確認する。
+
+- ナビゲーションのCodeから「Add file」ボタンを押してファイルを追加する
+  - ファイル名に`.github/README.md`と入力
+  - 本文に`# foundaitons-hands-on-2`と入力
+- ナビゲーションのCodeで、今作ったファイルがREADMEとして表示されていることを確認する
+  - これによって、複数のREADMEがある場合、`.github`ディレクトリ -> rootディレクトリ -> `docs`ディレクトリであることが分かる
+  - 時間があるならファイルを削除したり、`docs/README.md`を作成してみて、複数のREADMEがある場合の動作を詳細に確認する
+  - 参考：[READMEについて](https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
+- 他のファイルについては[公式ドキュメント](https://docs.github.com/ja/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository)を確認しておく
+
+## starを付ける
+
+Starについて確認する。
+
+- [vscode](https://github.com/microsoft/vscode)にアクセス
+  - starを押してみる
+- [stars](https://github.com/stars)にアクセスしてみると、vscodeが出てくるのを確認する
+- vscodeのリポジトリに戻って、画面右のメタデータの[stars](https://github.com/microsoft/vscode/stargazers)を見てみると、starを付けたアカウントが見られることを確認する
+
+## Feature preview
+
+任意の画面からアカウントアイコンをクリックし、メニューから「Feature preview」にアクセスしてみる。
+
+[前ドメインへ](../domain1/README.md)  
+[次のドメインへ](../domain3/README.md)  
+[目次へ](../README.md)
