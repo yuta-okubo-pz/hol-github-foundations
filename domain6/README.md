@@ -14,7 +14,7 @@ Repositoryのロールを確認する。Organizationの機能のため、講師�
 
 リポジトリの設定とSecurity,Insightsについて確認する。
 
-- `foundations-hands-on-3`リポジトリのナビゲーションのSettingsを見ていく
+- `hol-javascript-calculator`リポジトリのナビゲーションのSettingsを見ていく
 - 同じリポジトリのナビゲーションのSecurityとInsightsをみる
 
 ## Organization/Enterpriseの設定
@@ -28,7 +28,7 @@ Repositoryのロールを確認する。Organizationの機能のため、講師�
   - OrganizationでTeamを作ってみせる
     - 親子ができることを示す
     - リポジトリの設定から、チームにロールを与えられることを示す 
-- `foundaitons-hands-on-3`でハンズオンの相方を招待してみる
+- `hol-javascript-calculator`でハンズオンの相方を招待してみる
   - 招待時にロールの設定はなく、Write相当の権限で呼ばれていることを確認する
 
  [前ドメインへ](../domain5/README.md)  

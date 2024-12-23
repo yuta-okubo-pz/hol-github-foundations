@@ -8,7 +8,7 @@ Projectsを使ったプロジェクト管理について確認する。併せて
 - Projectを作ってみる
   - 「New project」ボタンを押す。テンプレートが複数あることを確認する。
     - 一旦「Start from scratch」から空のTableで作る
-  - ドメイン4で作成したリポジトリ`foundations-hands-on-3`でIssueを2つ作る
+  - ドメイン4で作成したリポジトリ`hol-javascript-calculator`でIssueを2つ作る
     - それぞれのIssueをProjectに紐付ける
 - Projectのテーブルとカンバンでの見え方を確認する
   - カンバンでドラッグアンドドロップでToDoからInProgress、Doneと移動できることを確認する
@@ -26,12 +26,12 @@ Projectsを使ったプロジェクト管理について確認する。併せて
     - イテレーションフィールドを追加する
     - 現在アイテムが2つ見えているはずなので、各アイテムのイテレーションを設定する
     - Viewの設定の「Group by」でイテレーションでまとめてみる
-- `foundaiton-hands-on-3`リポジトリのナビゲーションのIssuesから、Labelsを追加してみる
+- `hol-javascript-calculator`リポジトリのナビゲーションのIssuesから、Labelsを追加してみる
   - Issueに設定してみる
   - Issueをラベルで検索してみる
   - Projectsで表示してみる
     - フィールドが表示されていない場合はLabelsフィールドを追加する
-- `foundaitons-hands-on-3`リポジトリのナビゲーションのIssuesから、Milestonesを追加してみる
+- `hol-javascript-calculator`リポジトリのナビゲーションのIssuesから、Milestonesを追加してみる
   - Issue2つにそれぞれMilestoneを設定してみる
   - Projectに戻り、ロードマップで見てみる
   - 2つのIssueのうち、1つクローズしてみる

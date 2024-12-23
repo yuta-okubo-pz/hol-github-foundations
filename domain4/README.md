@@ -4,7 +4,7 @@
 
 GitHub Actionsについて確認する。
 
-- [サンプルのテンプレートリポジトリ](https://github.com/alterbooth/hol-javascript-calculator)から、自身のアカウントの下に`foundations-hands-on-3`リポジトリをパブリックで作る
+- [サンプルのテンプレートリポジトリ](https://github.com/alterbooth/hol-javascript-calculator)から、自身のアカウントの下に`hol-javascript-calculator`リポジトリをパブリックで作る
   - 内容は簡単なHTMLとJavaScriptで作られた電卓アプリ
 - ナビゲーションのActionsにアクセスし、テンプレートから作成できることを確認する
   - 「set up a workflow yourself」で今回は空のワークフローを作成する。ファイル名は`ci`とする
@@ -24,7 +24,7 @@ GitHub Copilotについて確認する。Copilotのライセンスがない参�
 
 GitHub Codespacesについて確認する。各個人がPublicに作成したリポジトリ上であれば無料枠内で利用できるが、アカウントの制限でプライベートリポジトリしか作れない等でCodespacesを利用できない場合は講師のデモを見る。
 
-- `foudations-hands-on-3`リポジトリのナビゲーションのCodeで、「Code」ボタンのプルダウンからCodespacesで開いてみる
+- `hol-javascript-calculator`リポジトリのナビゲーションのCodeで、「Code」ボタンのプルダウンからCodespacesで開いてみる
   - VSCodeの画面がブラウザで開き、ファイルが修正出来ることを確認する
   - ターミナルにアクセスして、`npm install`を実行してみる
 - ブラウザのタブを閉じ、同じくCodeタブにアクセスすると先ほど作ったCodespaceが一覧に表示され、そこに再接続してみると元の状態に接続できていることを確認する
