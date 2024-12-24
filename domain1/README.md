@@ -17,6 +17,7 @@ github.comで、自身のアカウントに以下の通りのパブリックな�
     - `git config --global user.name "あなたの名前"`
     - `git config --global user.email "あなたのgithubのアカウントのメールアドレス"`
 - リポジトリのページのナビゲーションのCodeで、「Code」ボタンからHTTPSのURLをコピーする
+  - ![URLをコピー](../image/image1-1.png)
   - `git clone 取得したURL`
   - `cd foundations-hands-on-1`
 - 作業用ブランチを作成する
@@ -56,5 +57,6 @@ github.comで、自身のアカウントに以下の通りのパブリックな�
 
 インストール可能ならば、GitHub Mobileをインストールして動かしてみる。
 
+---
 [次のドメインへ](../domain2/README.md)  
 [目次へ](../README.md)

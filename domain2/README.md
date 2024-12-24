@@ -14,20 +14,25 @@
 
 - `foundaitons-hands-on-1`リポジトリのナビゲーションのSettingsにアクセスする
 - Generalの`Template repository`にチェックを入れる
+- ![Template repository](../image/image2-1.png)
 - ナビゲーションのCodeで、右上の「Use this template」を押して、テンプレートから`foundations-hands-on-2`という新しいパブリックリポジトリを作成する
+- ![Use this template](../image/image2-2.png)
 
 ## ブランチの作成
 
 github.com上でのブランチの作成方法を確認する。
 
 - `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、ナビゲーションのCodeでブランチ選択のプルダンを開き、検索で`update-readme-2`と入れてブランチを作る
+- ![Create a branch](../image/image2-3.png)
 
 ## ファイルの追加
 
 github.com上でのファイルの追加方法を確認する。
 
 - ナビゲーションのCodeから「Add file」ボタンを押してファイルを追加する
+  - ![Add file](../image/image2-4.png)
   - ファイル名に`.github/README.md`と入力
+  - ![inpyut file name](../image/image2-5.png)
   - 本文に`# foundaitons-hands-on-2`と入力
 - ナビゲーションのCodeで、今作ったファイルがREADMEとして表示されていることを確認する
   - これによって、複数のREADMEがある場合、`.github`ディレクトリ -> rootディレクトリ -> `docs`ディレクトリであることが分かる
@@ -41,6 +46,7 @@ Starについて確認する。
 
 - [vscode](https://github.com/microsoft/vscode)にアクセス
   - starを押してみる
+  - ![star](../image/image2-6.png)
 - [stars](https://github.com/stars)にアクセスしてみると、vscodeが出てくるのを確認する
 - vscodeのリポジトリに戻って、画面右のメタデータの[stars](https://github.com/microsoft/vscode/stargazers)を見てみると、starを付けたアカウントが見られることを確認する
 
@@ -48,6 +54,11 @@ Starについて確認する。
 
 任意の画面からアカウントアイコンをクリックし、メニューから「Feature preview」にアクセスしてみる。
 
+![account icon](../image/image2-7.png)
+
+![Feature preview](../image/image2-8.png)
+
+---
 [前ドメインへ](../domain1/README.md)  
 [次のドメインへ](../domain3/README.md)  
 [目次へ](../README.md)
