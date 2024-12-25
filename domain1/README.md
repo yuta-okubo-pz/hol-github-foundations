@@ -4,16 +4,19 @@
 
 github.comで、自身のアカウントに以下の通りのパブリックなリポジトリを作成する。
   
+- ![create new repository](../image/image1-2.png)
+- テンプレートは利用しない
+- Ownerは自分のアカウントを選ぶ(選択肢がある場合)
 - 名前は`foundations-hands-on-1`
-- README作る
+- READMEを作る
 - ライセンスはMITを選択
 - .gitignoreは不要
-
+- ![repository settings](../image/image1-3.png)
 ## リポジトリのクローンとgitの操作
 
 自身のPCにクローンして、gitの基本操作を行ってみる。
 
-- git configで自身の名前とメールアドレスを設定しておく(事前準備が済んでいない場合)
+- ターミナルを開き、`git config`コマンドで自身の名前とメールアドレスを設定しておく(事前準備が済んでいない場合)
     - `git config --global user.name "あなたの名前"`
     - `git config --global user.email "あなたのgithubのアカウントのメールアドレス"`
 - リポジトリのページのナビゲーションのCodeで、「Code」ボタンからHTTPSのURLをコピーする
