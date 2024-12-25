@@ -5,7 +5,9 @@
 アカウントやOrganizationをフォローする方法を確認する。
 
 - [Octocat](https://github.com/octocat)のページにアクセスし、フォローしてみる
+  - ![follow user](../image/image7-1.png)
 - [GitHubのOrganization](https://github.com/github)のページにアクセスし、フォローしてみる
+  - ![follow organization](../image/image7-2.png)
 
 ## Marketplaceについて
 
