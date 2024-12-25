@@ -19,18 +19,19 @@ Repositoryのロールを確認する。Organizationの機能のため、講師�
 
 ## Organization/Enterpriseの設定
 
-
 - **デモ**
   - 講師は自信の管理するOrganizaiton配下のリポジトリの設定で、外部コラボレータの設定を見せる
     - 名前やメールアドレスで検索でき、ロールを指定して招待することを示す
+  - 参加者はもし自身が管理者であるOrganizationを準備できているならば、Organization配下のリポジトリのSettings > Access > Collaborators and teamsを見てみる
+  - 参加者は`hol-javascript-calculator`リポジトリでハンズオンの相方を招待してみる
+    - 招待時にロールの設定はなく、Write相当の権限で呼ばれていることを確認する
 - **デモ**
   - 講師はOrganizaitonとEnterpriseの設定画面を示す
   - OrganizationでTeamを作ってみせる
     - 親子ができることを示す
     - リポジトリの設定から、チームにロールを与えられることを示す 
-- `hol-javascript-calculator`でハンズオンの相方を招待してみる
-  - 招待時にロールの設定はなく、Write相当の権限で呼ばれていることを確認する
 
+---
  [前ドメインへ](../domain5/README.md)  
 [次のドメインへ](../domain7/README.md)  
 [目次へ](../README.md)
