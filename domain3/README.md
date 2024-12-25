@@ -115,11 +115,15 @@ Discussionsについて確認する。
 通知について確認する。
 
 - 任意のページから通知に移動し、届いている通知一覧を見る
-- 先ほどテンプレートから作ったIssueやPull requestがあるので、それぞれのSubscribeh状態を見る
+  - ![notifications](../image/image3-31.png)
+- IssueやPull requestのそれぞれのSubscription状態を見る
   - 自身が作ったので、自動的にSubscribeされている(Participate)ことを確認する
+    - ![nofitication of issue](../image/image3-32.png)
   - Unsubscribeしてみる
 - `foundations-hands-on-2`のナビゲーションのCodeに移動し、「watch」ボタンで何が選べるかを確認する
-- 通知ページから、ユーザー設定を見る
+  - ![watch of repository](../image/image3-33.png)
+- 通知ページから、ユーザー設定を見る(左下の「Manage notifications」)
+  - ![manage notifications](../image/image3-34.png)
 
 ## Gistについて
 
