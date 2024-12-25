@@ -63,7 +63,7 @@ Pull requestの作成と操作について確認する。
   - ナビゲーションのPull requestから「New Pull request」を押す
   - ![new pull request](../image/image3-13.png)
   - タイトルに`Update README.md`を入れる
-    - Descriptionは適宜入力しつつ、`Close #1`を入れる(もし作成したIssueの番号がずれてるなら#の後ろの数字を変える。#を入れたら補完が効くはず)
+    - Descriptionは適宜入力しつつ、`Close #1`を入れる(もし作成したIssueの番号がずれてるなら#の後ろの数字を変える。#を入れたら補完が効く)
     - 作成したらCODEOWNERSに先ほど入れた、ハンズオンの相方の人が自動的にレビュアーに入ってる事を確認する
 - 作ったものを確認し、4種のタブがあることを確認する
 - コメントしてみる
