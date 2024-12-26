@@ -38,7 +38,7 @@ github.comで、自身のアカウントに以下の通りのパブリックな�
 - ステージングエリアのファイルをコミットする
   - `git commit -m "[modify] update README"`
 - リモートリポジトリにプッシュする
-  - `git push --set-upstream origin update-readme 
+  - `git push --set-upstream origin update-readme`
     - 手元で作成したブランチをリモートリポジトリに作成する場合、`--set-upstream`オプションを付ける必要がある
 - github.comでリポジトリにアクセスし、ファイルが変更されているのを確認する
   - ナビゲーションのCodeの左上の方にブランチがあるので、ここからプルダウンで`update-readme`を選択する
