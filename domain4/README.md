@@ -17,11 +17,21 @@ GitHub Actionsについて確認する。
 
 ## GitHub Copilot
 
-GitHub Copilotについて確認する。Copilotのライセンスがない参加者のために、基本的には講師がデモを行う
+GitHub Copilotについて確認する。参加者はライセンスを所有しているならばそれを使い、そうでない場合はフリープランを利用する
 
-- 講師がこのリポジトリのコードに対してCopilotの動作をみせるので、Copilotがどのように動くものかを確認する
-  - もしCopilotのライセンスを持っているのであれば、同じようにChatでコードについて説明を求めたりしてみる
-
+- VSCodeに以下の拡張機能をインストールする
+  - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+  - [GitHub Coopilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+  - githubへのサインインを求められたらサインインをする
+- `hol-javascript-calcurator`リポジトリの`src/main.js`を開いた状態でCopilot Chatを開く
+  - 「このファイルに書かれているコードの説明をして」と入力してみる
+  - `src/app.js`の19行目(`funciton divide()`の定義の後ろ)にカーソルを持っていき、`function square(a){(改行)`と入力してみる
+    - Copilotが二乗を計算する関数を提案してくれることを確認し、TABキーで確定する
+  - Copilot Chatに「square関数もエクスポートして」と入力してみる
+    - 提案内容を確認し、問題なければ「エディッターで適用」をクリック
+    - ![accept to editor](../image/image4-5.png)
+    - エディッタに適用された提案内容を確認し、「変更を受け入れる」をクリックして受け入れる
+    - ![accept suggestion](../image/image4-6.png)
 ## GitHub Codespaces
 
 GitHub Codespacesについて確認する。各個人がPublicに作成したリポジトリ上であれば無料枠内で利用できるが、アカウントの制限でプライベートリポジトリしか作れない等でCodespacesを利用できない場合は講師のデモを見る。
