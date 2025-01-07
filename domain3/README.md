@@ -53,6 +53,10 @@ Issueの作成と操作について確認する。
 Pull requestの作成と操作について確認する。
 
 - `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、CODEOWNERSファイルを新規に作成する
+  - ハンズオンの相方をリポジトリに招待する
+    - リポジトリのナビゲーションのSettingsからCollaborators and teamsにアクセスし、「Add people」ボタンを押す
+    - ![ユーザーをリポジトリへ招待](../image/image3-35.png)
+    - 相方に招待メールが届いているので、リンクをクリックして招待を受け入れてもらう
   - ハンズオンの相方をCODEOWNERSファイルでレビュアーにいれておく
   - 書式は`*    @相方のアカウント名`
   - ![CODEOWNERS](../image/image3-11.png)
