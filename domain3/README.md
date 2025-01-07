@@ -160,7 +160,7 @@ GitHub Pagesについて確認する。
 
 - `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからPagesをONにする  
   - Sourceに「Deploy from branch」を選び、`main`リポジトリの`/(root)`を選択してSaveする
-  - ![github pages](./image/image3-29.png)
+  - ![github pages](../image/image3-29.png)
 - しばらくしてリロードしてみるとURLがでてるのでアクセスする
   - ![access github pages](../image/image3-30.png)
   - READMEの内容が見えることを確認する
