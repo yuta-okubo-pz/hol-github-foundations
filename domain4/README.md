@@ -23,7 +23,7 @@ GitHub Copilotについて確認する。参加者はライセンスを所有し
   - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
   - [GitHub Coopilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
   - githubへのサインインを求められたらサインインをする
-- `hol-javascript-calcurator`リポジトリの`src/main.js`を開いた状態でCopilot Chatを開く
+- `hol-javascript-calcurator`リポジトリの`src/app.js`を開いた状態でCopilot Chatを開く
   - 「このファイルに書かれているコードの説明をして」と入力してみる
   - `src/app.js`の19行目(`funciton divide()`の定義の後ろ)にカーソルを持っていき、`function square(a){(改行)`と入力してみる
     - Copilotが二乗を計算する関数を提案してくれることを確認し、TABキーで確定する
