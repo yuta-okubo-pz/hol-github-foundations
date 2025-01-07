@@ -35,7 +35,7 @@ github.com上でのファイルの追加方法を確認する。
   - ![inpyut file name](../image/image2-5.png)
   - 本文に`# foundaitons-hands-on-2`と入力
 - ナビゲーションのCodeで、今作ったファイルがREADMEとして表示されていることを確認する
-  - これによって、複数のREADMEがある場合、`.github`ディレクトリ -> rootディレクトリ -> `docs`ディレクトリであることが分かる
+  - これによって、複数のREADMEがある場合、`.github`ディレクトリ -> rootディレクトリ -> `docs`ディレクトリの順で優先的に表示されるようになっていることが分かる
   - 時間があるならファイルを削除したり、`docs/README.md`を作成してみて、複数のREADMEがある場合の動作を詳細に確認する
   - 参考：[READMEについて](https://docs.github.com/ja/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 - 他のファイルについては[公式ドキュメント](https://docs.github.com/ja/enterprise-cloud@latest/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository)を確認しておく
