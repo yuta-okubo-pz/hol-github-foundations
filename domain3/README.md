@@ -78,7 +78,7 @@ Pull requestの作成と操作について確認する。
   - ![4 tabs](../image/image3-36.png)
 - コメントしてみる
   - マークダウンやslash commandが使えることを確認する
-- Pull Requestのステータスについて確認する
+- Pull requestのステータスについて確認する
     - 作った状態がOpen
     - Reviewersの所からdraftに変更できる。作業中でまだレビューを受けられる状態ではないようなときはdraftにしておく(作成時にdraftにもできる)
     - ![convert to draft](../image/image3-14.png)
