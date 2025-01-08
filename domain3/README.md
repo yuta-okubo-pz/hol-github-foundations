@@ -90,38 +90,57 @@ Pull requestの作成と操作について確認する。
 - コメントしてみる
   - マークダウンやslash commandが使えることを確認する
 - Pull requestのステータスについて確認する
-    - 作った状態がOpen
-    - Reviewersの所からdraftに変更できる。作業中でまだレビューを受けられる状態ではないようなときはdraftにしておく(作成時にdraftにもできる)
-    - ![convert to draft](../image/image3-14.png)
-    - draftになったPull requestは、コメントの下の方の「Ready for review」を押してOpenに戻せる
-    - ![ready for review](../image/image3-15.png)
-    - コメントの下のボタンを押してCloss、Reopenできる
-    - ![close pull request](../image/image3-16.png)
+  - 作った状態がOpen
+  - Reviewersの所からdraftに変更できる。作業中でまだレビューを受けられる状態ではないようなときはdraftにしておく(作成時にdraftにもできる)
+  - ![convert to draft](../image/image3-14.png)
+  - draftになったPull requestは、コメントの下の方の「Ready for review」を押してOpenに戻せる
+  - ![ready for review](../image/image3-15.png)
+  - コメントの下のボタンを押してCloss、Reopenできる
+  - ![close pull request](../image/image3-16.png)
 - レビューしてみる
-  - 自分のものにもレビューはできるが、できるだけハンズオンの相方のものをレビューする
-  - レビューのステータスについて確認する
+  - (*)自分のものにもレビューはできるが、できるだけハンズオンの相方のものをレビューしてみる 
+  - Files changedタブで、ファイルの変更内容の差分を確認して、指摘したい部分をクリックしてコメントを入力して「Start a review」を押す
+    - ![start a review](../image/image3-16-a.png)
+  - 「Start a review」を押すと、図のようにpending状態になるので、他のコメントを追加して複数のコメントをまとめて1つのレビューとして送ることができる
+    - ![pending](../image/image3-16-b.png)
+  - コメントを書き終わったら「Finish your review」を押してレビューを送る。この時にレビューのコメントを入力し、状態として「Comment」「Approve」「Request changes」のいずれかを選ぶことができる(自分自身へのレビューの場合は「Comment」しか選択できない)ので、状態を選択して「Submit review」を押す
+    - ![Finish your review](../image/image3-16-c.png)
+- レビューを確認し、対応する
+  - Conversationタブでレビュー内容を確認して、修正を行う(修正内容をコミットし、プッシュする)
+  - レビューに返信する
+  - レビュアーはコメントを確認して、問題なければ「Resolve conversation」を押して解決済みにする
+  - ![resolve conversation](../image/image3-16-d.png)
 - レビューで変更提案を出す
   - ツールチップからか、[suggestionコードブロック](./suggestion.md)を直接入力する
   - ![suggestion](../image/image3-17.png)
-  - 取り入れると即座に内容がコミットされることを確認する
-  - ![commit suggestion](../image/image3-18.png)
-- Pull requestのメターデータの「Development」からIssue #2を追加でリンクしてみる
-- ![link issue to pull request](../image/image3-19.png)
-- マージしたら自動でクローズされてIssueの#1/#2もクローズされることを確認する
-  - マージでクローズしたものは再オープンができないことを確認する
+  - 「Add single comment」ボタンを押すと即座に提案が送られるが、「Start a review」を押すと以下のようにpending状態になるので、「Finish your review」を押して提案を送る
+    - ![pending review](../image/image3-17-a.png)
+  - 提案を取り入れると即座に内容がコミットされることを確認する
+    - ![commit suggestion](../image/image3-18.png)
+- Pull requestのメタデータの「Development」からIssue #2を追加でリンクしてみる
+  - ![link issue to pull request](../image/image3-19.png)
+- Pull requestをApproveし、マージする
+  - レビュアーは自分がコメントしたものが全て解決され、修正内容が問題ないと判断したらApproveする
+  - Files changedタブの「Review changes」から「Approve」を選択して「Submit review」を押す
+    - ![approve](../image/image3-19-a.png)
+  - 全てのレビュアーがApproveしたら、Conversationタブの下の方の「Merge pull request」を押してマージする
+    - ![merge](../image/image3-19-b.png)
+    - 続けて「Confirm merge」を押してマージを完了する
+- マージしたらPull requestがクローズされてIssueの#1/#2もクローズされることを確認する
+  - マージでクローズしたPull requestは再オープンができないことを確認する
 - Pull requestテンプレートを作って、テンプレートを使ったpull requestを作ってみる
   - `.github/pull_request_template.md`を作成する
   - [サンプルテンプレート](./pull_request_template.md)を貼り付けてコミットする
-  - 新しいIssueを作成してみて、Descriptionにテンプレートの内容が含まれていることを確認する
+  - 再度READMEを更新してpull requestを作成し、Descriptionにテンプレートの内容が含まれていることを確認する
 
 ## Discussions
 
 Discussionsについて確認する。
-
 - `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsをONにする
   - ![Settings](../image/image3-20.png)
   - ![Discussions](../image/image3-21.png)
 - ナビゲーションにDiscusisonsが表示されることを確認する
+  - ![Discussions on navigation](../image/image3-21-a.png)
 - Discussionsにアクセスする
 - カテゴリーがあることを確認する
 - カテゴリー「Q&A」でスレッド(Discussion)を作る
