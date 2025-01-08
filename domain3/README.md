@@ -42,9 +42,9 @@ Issueの作成と操作について確認する。
   - 転送されてきたIssueを右下のボタンで削除してみる
   - ![delete issue](../image/image3-9.png)
 - Issue templateとFormsを作ってみる
-  - **Issue template**：Feature request のテンプレートを作る
   - [公式ドキュメント](https://docs.github.com/ja/enterprise-cloud@latest/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
-      - `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、ナビゲーションのSettingsにアクセス
+  - **Issue template**：Feature request のテンプレートを作る
+    - `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、ナビゲーションのSettingsにアクセス
     - General > Features > Issuesで「Set up templates」ボタンを押してテンプレートを作ってみる
     - ![set up issue templates](../image/image3-10.png)
     - `Add template: select` から `Feature request` を選ぶ
