@@ -41,13 +41,21 @@ Issueの作成と操作について確認する。
   - 転送されていることを確認する
   - 転送されてきたIssueを右下のボタンで削除してみる
   - ![delete issue](../image/image3-9.png)
-- Issue templateとIssue formsを作ってみる
-  - `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、ナビゲーションのSettingsにアクセス
-  - General > Features > Issuesで「Set up templates」ボタンを押して、「Feature request」テンプレートを作ってみる
+- Issue templateとFormsを作ってみる
+  - **Issue template**：Feature request のテンプレートを作る
   - [公式ドキュメント](https://docs.github.com/ja/enterprise-cloud@latest/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
-  - ![set up issue templates](../image/image3-10.png)
-  - ナビゲーションのCodeに戻り、`.github/ISSUE_TEMPLATES`ディレクトリにファイルがあることを確認
-  - Issue formsは[サンプルのYAML](./bug-report.yml)をコピペして、`.github/ISSUE_TEMPLATES/bug-report.yml`を作成する
+      - `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、ナビゲーションのSettingsにアクセス
+    - General > Features > Issuesで「Set up templates」ボタンを押してテンプレートを作ってみる
+    - ![set up issue templates](../image/image3-10.png)
+    - `Add template: select` から `Feature request` を選ぶ
+    - ![Add template: select](../image/image3-10-a.png)
+    - `Preview and edit`  ＞ `✏️` で編集画面に移動して、テンプレートを編集する
+    - ![Preview and edit](../image/image3-10-b.png)
+    - ![Custom template のプレビュー画面](../image/image3-10-c.png)
+    - ![Custom template の編集画面](../image/image3-10-d.png)
+    - 作成したファイルは`.github/ISSUE_TEMPLATES/`にあることを確認する
+  - **Forms**：Bug report のフォームを作る
+    - Formsは[サンプルのYAML](./bug-report.yml)をコピペして、`.github/ISSUE_TEMPLATES/bug-report.yml`を作成する
   - ナビゲーションのIssuesからIssue一覧画面に戻って「New issue」ボタンを押し、Issue templateとIssue formsを使ってIssueを作ってみる
 
 ## Pull requestの作成と操作
