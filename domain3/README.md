@@ -136,77 +136,163 @@ Pull requestの作成と操作について確認する。
 ## Discussions
 
 Discussionsについて確認する。
-- `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsをONにする
+- `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsを有効化する
   - ![Settings](../image/image3-20.png)
   - ![Discussions](../image/image3-21.png)
 - ナビゲーションにDiscusisonsが表示されることを確認する
   - ![Discussions on navigation](../image/image3-21-a.png)
 - Discussionsにアクセスする
-- カテゴリーがあることを確認する
-- カテゴリー「Q&A」でスレッド(Discussion)を作る
+- カテゴリがあることを確認する
+- カテゴリ「Q&A」でスレッド(Discussion)を作る
+  - 「New discussion」ボタンを押す
+    - ![New discussion](../image/image3-21-b.png)
+  - 「Select a discussion category」画面で「Q&A」の「Get started」を押す
+    - ![Select a discussion category](../image/image3-21-c.png)
+  - TitleとBodyを入力して「Start discussion」を押す
+    - ![Start discussion](../image/image3-21-d.png)
   - 回答を書き込んでみる
+    - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、先ほど作成したDiscussionにアクセスする
+    - 回答を書き込み、「Comment」ボタンを押す
+      - ![Write a comment](../image/image3-21-e.png)
   - 回答とマークしてみる
+    - このQ&Aの回答として採用したいコメントの「Mark as answer」を押す
+      - ![Mark as answer](../image/image3-21-f.png)
+    - マークされたコメントが回答として表示されることを確認する
+      - ![Answer](../image/image3-21-g.png)
   - ピン留めしてみる
+    - 「Pin discussion」と「Pin discussion to Q&A」の2つがあることを確認する
+      - ![pin discussion](../image/image3-21-h.png)
+    - 「Pin discussion」を押すと背景を選ぶ画面になるので、選択して「Pin discussion」を押してピン留めする
+      - ![pin discussion](../image/image3-21-i.png)
+    - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、ピン留めされたDiscussionが一番上に表示されることを確認する
+      - ![pinned discussion](../image/image3-21-j.png)
+    - 
+    - 再度Discussionを開いて、「Unipn discussion」を押してピン留めを解除する
+      - ![unpin discussion](../image/image3-21-k.png)
+    - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、ピン留めが解除されているを確認する
+    - 再度Discussionを開いて、「Pin discussion to Q&A」を押してピン留めする
+      - ![pin discussion to Q&A](../image/image3-21-l.png)
+    - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、一覧表示ではピン留めされていないことを確認する
+    - 「Categories」で「Q&A」を選択する。Q&Aカテゴリの一覧で、「Pinned to Q&A」と表示されているのを確認する
+      - ![pinned discussion to Q&A](../image/image3-21-m.png)
+  - 時間に余裕があれば複数の「Q&A」カテゴリのDiscussionを作成してみて、ピン留めされたものが一番上に来ることを確認する
+    - カテゴリを選んだ状態で「New discussion」を押してDiscussionを作成すると、そのカテゴリに属するDiscussionが作成される(先ほどのカテゴリ選択画面が表示されない)ことを確認する
+    - 新しいDiscusisonを作成した後、ナビゲーションのDiscussionsを押し、CategoriesからQ&Aを選択して「Q&A」カテゴリの一覧を表示すると、以下のようにカテゴリにピン留めされたものが一番上に来ていることが分かる
+      - ![Create another discussion](../image/image3-21-n.png)
   - DiscussionからIssueを作成してみる
-  - ![mark-pin-create_issue](../image/image3-22.png)
+    - Discussionに移動し、「Create issue from discussion」を押す
+    - ![Create issue from discussion](../image/image3-22.png)
 
 ## 通知
 
 通知について確認する。
 
-- 任意のページから通知に移動し、届いている通知一覧を見る
+- github.comの任意のページから、画面右上のファイルボックスのアイコンを押して通知画面を開き、届いている通知一覧を見る
+  - 開くとInboxの一覧が表示される
   - ![notifications](../image/image3-31.png)
-- IssueやPull requestのそれぞれのSubscription状態を見る
-  - 自身が作ったので、自動的にSubscribeされている(Participate)ことを確認する
+- 自身のsubscribe状態を確認・変更する
+  - 通知画面の左下にある「Manage notifications」を押し、「Subscriptions」を選択する
+    - ![Subscriptions](../image/image3-31-a.png)
+  - これまでに作成したIssueやPull request、DiscussionにSubscribeしていることを確認する
+    - ![List sucscripitons](../image/image3-31-b.png)
+  - Subscriptionの一覧からIssueを選び、クリックして遷移する。Issueは一覧のうち、以下のアイコンのもの
+    - ![Issue icon](../image/image3-31-c.png)
+  - 画面右に表示されるメタデータの「Notifications」を見て、ボタンが「Unscribe」になっており、その下の「Participants」に自分自身のアイコンが表示されていることを確認する
     - ![nofitication of issue](../image/image3-32.png)
-  - Unsubscribeしてみる
-- `foundations-hands-on-2`のナビゲーションのCodeに移動し、「watch」ボタンで何が選べるかを確認する
+  - Unsubscribeボタンを押してみる
+  - Subscriptionの一覧に戻り、該当のIssueが一覧に無いことを確認する
+- `foundations-hands-on-2`のナビゲーションのCodeに移動し、「Watch」ボタンで何が選べるかを確認する
   - ![watch of repository](../image/image3-33.png)
-- 通知ページから、ユーザー設定を見る(左下の「Manage notifications」)
-  - ![manage notifications](../image/image3-34.png)
+- github.comの任意のページで、右上のアカウントアイコンをクリックする
+  - ![account icon](../image/image2-7.png)
+  - 「Settings」を押す
+    - ![settings](../image/image3-33-a.png)
+  - Notificationsを選択する
+    - ![notifications](../image/image3-33-b.png)
+  - 通知の設定にどのようなものがあるかを確認する
 
 ## Gistについて
 
 Gistについて確認する。
 
-- 任意のページからアカウントアイコンを押し、「Your Gists」を押してGistにアクセスする
+- github.comの任意のページからアカウントアイコンを押す
   - ![account icon](../image/image2-7.png)
-  - ![your gist](../image/image3-23.png)
-- 新しいGistを作る
-  - 一旦secretで作成する
-  - 「Edit」からpublicにしてみる
+  - 「Your Gists」を押す
+    - ![your gist](../image/image3-23.png)
+- 右上の「＋」ボタンを押して新しいGistを作る
+  - 「Filename including extension」に`foundations-hands-on-1.md`と入力
+  - ファイルの内容を書く
+  - 「Create secret gist」ボタンを押す
+  - ![create secret gist](../image/image3-23-a.png)
+- gistをPublicにしてみる
+  - 対象のgistを開いた状態で、右上の「Edit」ボタンを押す
     - ![edit gist](../image/image3-24.png)
+  - 右上の「Make public」ボタンを押す
     - ![make public](../image/image3-25.png)
-    - public->secretはできないのを確認する
+    - ![browser alert](../image/image3-25-a.png)
+  - Publicになったgistの右上の「Edit」ボタンを押す
+  - Secretに切り替えるボタンがないことを確認する
 - fork/cloneのやり方を確認する
-  - embedのプルダウンからクローンできる
-  - ![embed](../image/image3-26.png)
-  - forkは人のものだけなので、ハンズオンの相方のpublicなgistにアクセスしてみる
+  - 対象のgistを開いた状態で、右上の「Embed」のプルダウンから「Clone via HTTPS」を押して、クローンする
+    - ![embed](../image/image3-26.png)
+  - 自身のものはforkできないので、[
+rxaviers/gist:7360908](https://gist.github.com/rxaviers/7360908)にアクセスする
     - 右上のForkを押す
-    - ![fork gist](../image/image3-27.png)
+      - ![fork gist](../image/image3-27.png)
+    - 自身のgistにforkされたことを確認する
+      - ![forked gist](../image/image3-27-a.png)
 
 ## Wikiについて
 
 Wikiについて確認する。
 
 - `foundations-hands-on-2`リポジトリのナビゲーションのWikiからWikiにアクセスして、読み書きしてみる
+  - 「Create the first page」を押す
+    - ![Create the first page](../image/image3-27-b.png)
+  - Title(デフォルトで「Home」と入っている)とページの本文(デフォルトで「Welcome to the foundations-hands-on-2 wiki!」と入っている)を編集する。「Edit message」はWikiのページを作成・編集したときに履歴に残す説明メッセージなので適宜入力する。
+  - 「Save page」ボタンを押してページを保存する
+    - ![Save page](../image/image3-27-c.png)
+  - 「New page」を押して新しいページを作成する
+    - ![New page](../image/image3-27-d.png)
+  - 新しいページを作成すると、ページの一覧に追加されていることを確認する
+    - ![pages](../image/image3-27-e.png)
+  - 「Add a custom sidebar」を押す
+    - ![Add a custom sidebar](../image/image3-27-f.png)
+  - Titleはデフォルトで入っている「_Sidebar」のままにして本文とEdit message(オプション)を入力して「Save page」を押す
+    - ![Save sidebar page](../image/image3-27-g.png)
+  - Pagesの下にsidebarが表示されていることを確認する
+    - ![sidebar](../image/image3-27-h.png)
 - ナビゲーションのSettings > FeaturesでWikiの権限を見てみる
-  - ![Restrict editing to collaborators only Loading](../image/image3-28.png)
-- 同じくナビゲーションのSettings > Featuresから、Wikiをオフにできることを確認する
+  - 「Restrict editing to collaborators only」がチェックされていると、collaboratorのみが編集できる。GitHubアカウントを持つユーザーならだれでも編集できるようにするにはチェックを外す
+    - ![Restrict editing to collaborators only](../image/image3-28.png)
+- ナビゲーションのSettings > Featuresから、Wikiを無効化してみる
+  - 「Wikis」のチェックを外すと、ナビゲーションからWikiが消えていることを確認する
 
 ## Pagesについて
 
 GitHub Pagesについて確認する。
 
-- `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからPagesをONにする  
-  - Sourceに「Deploy from branch」を選び、`main`リポジトリの`/(root)`を選択してSaveする
+- `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからPagesを構成する  
+  - Sourceに「Deploy from branch」を選び、Branchで`main`を選択し、ディレクトリとして「/(root)」が選択されていることを確認し、「Save」ボタンを押して保存する
   - ![github pages](../image/image3-29.png)
-- しばらくしてリロードしてみるとURLがでてるのでアクセスする
-  - ![access github pages](../image/image3-30.png)
-  - READMEの内容が見えることを確認する
-- index.htmlを追加して再度アクセスすると、indexがみえる
-- Settings > PagesのSourceで「GitHub Aciton」というのがあるのを確認する
-  - ここでビルドしてコンテンツをデプロイする設定ができるので、時間があれば実際にやってみる
+- しばらくしてこのGitHub Pagesの設定ページをリロードすると、公開されたPagesのURLが表示されるので、URLのリンクまたは「Visit site」ボタンからアクセスする。`README.md`ファイルが静的サイトとして展開されていることを確認する
+  - ![access github pages](../image/image3-30.png) 
+- この`foundations-hands-on-2`リポジトリに新しく`index.html`という名前のファイルを作成する
+  - 以下の内容を貼り付けてファイルを新規に作成する
+    ```html
+    <!DOCTYPE html>
+    <html lang="ja">
+    <head>
+      <meta charset="UTF-8">
+      <title>Hello World</title>
+    </head>
+    <body>
+      <h1>Hello world</h1>
+    </body>
+    </html>
+    ```
+  - ファイルを追加後、しばらくして再度PagesのURLにアクセスして、作成した`index.html`の内容が展開されていることを確認する
+- もう一つのデプロイ方法を確認するため、Settings > PagesのSourceのプルダウンを開き、「GitHub Action」の選択肢があることを確認する
 
 ---
 
