@@ -167,7 +167,7 @@ Discussionsについて確認する。
     - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、ピン留めされたDiscussionが一番上に表示されることを確認する
       - ![pinned discussion](../image/image3-21-j.png)
     - 
-    - 再度Discussionを開いて、「Unipn discussion」を押してピン留めを解除する
+    - 再度Discussionを開いて、「Unpin discussion」を押してピン留めを解除する
       - ![unpin discussion](../image/image3-21-k.png)
     - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、ピン留めが解除されているを確認する
     - 再度Discussionを開いて、「Pin discussion to Q&A」を押してピン留めする
