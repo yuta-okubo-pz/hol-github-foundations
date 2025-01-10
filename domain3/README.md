@@ -197,7 +197,7 @@ Discussionsについて確認する。
     - ![List sucscripitons](../image/image3-31-b.png)
   - Subscriptionの一覧からIssueを選び、クリックして遷移する。Issueは一覧のうち、以下のアイコンのもの
     - ![Issue icon](../image/image3-31-c.png)
-  - 画面右に表示されるメタデータの「Notifications」を見て、ボタンが「Unscribe」になっており、その下の「Participants」に自分自身のアイコンが表示されていることを確認する
+  - 画面右に表示されるメタデータの「Notifications」を見て、ボタンが「Unsubscribe」になっており、その下の「Participants」に自分自身のアイコンが表示されていることを確認する
     - ![nofitication of issue](../image/image3-32.png)
   - Unsubscribeボタンを押してみる
   - Subscriptionの一覧に戻り、該当のIssueが一覧に無いことを確認する
