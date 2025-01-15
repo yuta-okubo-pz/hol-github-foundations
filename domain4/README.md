@@ -4,16 +4,27 @@
 
 GitHub Actionsについて確認する。
 
-- [サンプルのテンプレートリポジトリ](https://github.com/alterbooth/hol-javascript-calculator)から、自身のアカウントの下に`hol-javascript-calculator`リポジトリをパブリックで作る
-  - 内容は簡単なHTMLとJavaScriptで作られた電卓アプリ
-- ナビゲーションのActionsにアクセスし、テンプレートから作成できることを確認する
-  - 「set up a workflow yourself」で今回は空のワークフローを作成する。ファイル名は`ci`とする
-  - ![actions](../image/image4-1.png)
-  - [サンプルのYAML](./ci.yml)の内容を貼り付けて保存する
-- プッシュするとActionsが動くので、ナビゲーションのActionsからログを確認する
-  - 時間があればテストが失敗するようにコードを変更してみる
-- イベントに`workflow_dispatch`があるので、ナビゲーションのActionsからワークフローを手動で起動できることを確認する
-  - ![workflow_dispatch](../image/image4-2.png)
+- [サンプルのテンプレートリポジトリ](https://github.com/alterbooth/hol-javascript-calculator)から、自身のアカウントの下に`hol-javascript-calculator`リポジトリをPublicで作る
+  - サンプルの内容は、簡単なHTMLとJavaScriptで作られた電卓アプリ
+
+Actionsのワークフローをテンプレートから作成できることを確認する。
+
+- ナビゲーションのActionsにアクセスし、「set up a workflow yourself」リンクを選択する
+  ![ナビゲーションのActionsにアクセスし、「set up a workflow yourself」リンクを選択する](../image/image4-1.png)
+- 今回は空のワークフローを作成する。ファイル名は`ci.yml`とする（ディレクトリは`hol-javascript-calculator/.github/workflows`のままでよい）。
+- [サンプルのYAML](./ci.yml)の内容を貼り付けて、「Commit changes...」ボタンから`main`ブランチにコミットする
+
+このサンプルではコミットするとActionsのワークフローが実行されるので、ログを確認する。
+
+- ナビゲーションのActionsからActionsの実行一覧を開き、実行されたワークフローのログを確認する
+
+時間があればテストが失敗するようにコードを変更してみる。
+
+このサンプルではトリガーに`workflow_dispatch`が指定されているので、ワークフローを手動で実行できることを確認する。
+
+- ナビゲーションのActionsからActionsの実行一覧を開き、ワークフローの「CI」を選択する。「Run workflow」プルダウンから、「Run workflow」ボタンを選択し、ワークフローを手動で実行する。
+  ![workflow_dispatchのトリガが設定されたワークフローを手動で実行する](../image/image4-2.png)
+  - 実行するブランチは「main」のままとする
 
 ## GitHub Copilot
 
