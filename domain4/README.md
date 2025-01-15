@@ -8,30 +8,31 @@ GitHub Actionsについて確認する。
   - 内容は簡単なHTMLとJavaScriptで作られた電卓アプリ
 - ナビゲーションのActionsにアクセスし、テンプレートから作成できることを確認する
   - 「set up a workflow yourself」で今回は空のワークフローを作成する。ファイル名は`ci`とする
-  - ![acitons](../image/image4-1.png)
+  - ![actions](../image/image4-1.png)
   - [サンプルのYAML](./ci.yml)の内容を貼り付けて保存する
-- プッシュするとAcitonsが動くので、ナビゲーションのActionsからログを確認する
+- プッシュするとActionsが動くので、ナビゲーションのActionsからログを確認する
   - 時間があればテストが失敗するようにコードを変更してみる
-- イベントに`workflow_dispatch`があるので、ナビゲーションのAcitonsからワークフローを手動で起動できることを確認する
+- イベントに`workflow_dispatch`があるので、ナビゲーションのActionsからワークフローを手動で起動できることを確認する
   - ![workflow_dispatch](../image/image4-2.png)
 
 ## GitHub Copilot
 
-GitHub Copilotについて確認する。参加者はライセンスを所有しているならばそれを使い、そうでない場合はフリープランを利用する
+GitHub Copilotについて確認する。参加者はライセンスを所有しているならばそれを使い、そうでない場合はフリープランを利用する。
 
 - VSCodeに以下の拡張機能をインストールする
   - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-  - [GitHub Coopilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+  - [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
   - githubへのサインインを求められたらサインインをする
-- `hol-javascript-calcurator`リポジトリの`src/app.js`を開いた状態でCopilot Chatを開く
+- `hol-javascript-calculator`リポジトリの`src/app.js`を開いた状態でCopilot Chatを開く
   - 「このファイルに書かれているコードの説明をして」と入力してみる
-  - `src/app.js`の19行目(`funciton divide()`の定義の後ろ)にカーソルを持っていき、`function square(a){(改行)`と入力してみる
+  - `src/app.js`の19行目(`function divide()`の定義の後ろ)にカーソルを持っていき、`function square(a){(改行)`と入力してみる
     - Copilotが二乗を計算する関数を提案してくれることを確認し、TABキーで確定する
   - Copilot Chatに「square関数もエクスポートして」と入力してみる
     - 提案内容を確認し、問題なければ「エディッターで適用」をクリック
     - ![accept to editor](../image/image4-5.png)
     - エディッタに適用された提案内容を確認し、「変更を受け入れる」をクリックして受け入れる
     - ![accept suggestion](../image/image4-6.png)
+
 ## GitHub Codespaces
 
 GitHub Codespacesについて確認する。各個人がPublicに作成したリポジトリ上であれば無料枠内で利用できるが、アカウントの制限でプライベートリポジトリしか作れない等でCodespacesを利用できない場合は講師のデモを見る。
