@@ -28,21 +28,39 @@ Actionsのワークフローをテンプレートから作成できることを�
 
 ## GitHub Copilot
 
-GitHub Copilotについて確認する。参加者はライセンスを所有しているならばそれを使い、そうでない場合はフリープランを利用する。
+GitHub Copilotについて確認する。
 
-- VSCodeに以下の拡張機能をインストールする
+次を準備する。
+
+- 参加者は、Copilotのライセンスを所有しているならばそれを利用する
+  - そうでない場合は、Copilot Freeプランを利用する
+
+- Visual Studio Code（以下、VS Code）に以下の拡張機能をインストールする
   - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-  - [GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
-  - githubへのサインインを求められたらサインインをする
-- `hol-javascript-calculator`リポジトリの`src/app.js`を開いた状態でCopilot Chatを開く
-  - 「このファイルに書かれているコードの説明をして」と入力してみる
-  - `src/app.js`の19行目(`function divide()`の定義の後ろ)にカーソルを持っていき、`function square(a){(改行)`と入力してみる
-    - Copilotが二乗を計算する関数を提案してくれることを確認し、TABキーで確定する
-  - Copilot Chatに「square関数もエクスポートして」と入力してみる
-    - 提案内容を確認し、問題なければ「エディッターで適用」をクリック
-    - ![accept to editor](../image/image4-5.png)
-    - エディッタに適用された提案内容を確認し、「変更を受け入れる」をクリックして受け入れる
-    - ![accept suggestion](../image/image4-6.png)
+    - 上記拡張機能をインストールすると、[GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)もインストールされる
+  - GitHubへのサインインを求められたらサインインをする
+- 前節で作成した`hol-javascript-calculator`リポジトリを、手元のPCの任意のディレクトリにクローンする
+- VS Codeで`hol-javascript-calculator`ディレクトリを開く
+
+GitHub Copilot Chatの動作を確認する。
+
+- `src/app.js`を開く
+- VS Codeの上部にあるCopilotアイコンから、Copilot Chatを開く
+  - チャット欄に「このファイルに書かれているコードの説明をして」と入力してみる
+
+GitHub Copilot Code completion（コード補完）の動作を確認する。
+
+- `src/app.js`の19行目(`function divide()`の定義の後ろ)にカーソルを持っていき、`function square(a){`と入力し、改行する
+  - Copilotが二乗を計算する関数を提案してくれることを確認し、TABキーで確定する
+
+ふたたび、GitHub Copilot Chatの動作を確認する。
+
+- Copilot Chatに「square関数もエクスポートして」と入力してみる
+  - 提案内容を確認する
+- コード ブロックにカーソルを乗せ、表示された「エディターで適用」のアイコンをクリックする
+  ![コード ブロック状に表示される「エディターで適用」アイコンをクリックする](../image/image4-5.png)
+- エディターに適用された提案内容を確認し、「変更を受け入れる」をクリックして受け入れる
+  ![適用された提案内容の「変更を受け入れる」をクリックする](../image/image4-6.png)
 
 ## GitHub Codespaces
 
