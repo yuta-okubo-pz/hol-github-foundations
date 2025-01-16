@@ -22,7 +22,7 @@ Projectsを使ったプロジェクト管理について確認する。併せて
     - Issueをクローズしたら、Project側がDoneになっていることを確認する
 - 三点リーダーの「Workflows」から自動化のフローをみる
   - ![workflows](../image/image5-4.png)
-  - Item reopend/Item closedといった組み込みのワークフローがあり、これまで見てきて内容があることを確認する
+  - Item reopened/Item closedといった組み込みのワークフローがあり、これまで見てきて内容があることを確認する
 - Project側からアイテムを追加してみる
   - ![add an item](../image/image5-5.png)
   - プラスボタンからだと、Issueを作成するか、既存のIssueを追加するかが選べることを確認する
