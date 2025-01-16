@@ -63,8 +63,8 @@ Projectsを使ったプロジェクト管理について確認する。併せて
 
 - 任意の画面でアカウントアイコンをクリックし、`Settings`>`Code, planning, and automation`>`Saved replies`から返信テンプレートを作ってみる
   - ![create saved replies](../image/image5-13.png)
--  Issue/Pull requestに、saved repliesを使って返信してみる
-   - ![use saved replies](../image/image5-14.png)
+- Issue/Pull requestに、saved repliesを使って返信してみる
+  - ![use saved replies](../image/image5-14.png)
 
 ---
 [前ドメインへ](../domain4/README.md)  
