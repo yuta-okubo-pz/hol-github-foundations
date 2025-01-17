@@ -45,7 +45,7 @@ ProjectのWorkflowsで自動化のフローを確認する。
 
 Projectでアイテムを追加してみる。
 
-- Tableレイアウトのビューで、リストの最後尾の「+」を選択する
+- Tableレイアウトのビューで、一覧の最後尾の「+」を選択する
   ![add an item](../image/image5-5.png)
   - 「+」ボタンからの操作では、Issueを作成するか、既存のIssueを追加するかが選べることを確認する
 - 「+」ボタンの横のテキストフィールドに何か入力する
@@ -56,8 +56,8 @@ Projectでアイテムを追加してみる。
 
 フィールドを追加してみる。ここでは、Tableレイアウトのビューから、イテレーションフィールドを追加する。
 
-- Tableレイアウトのビューで、リストの右端の「+」を選択し、「+ New field」を選択する
-  ![リストの右端の「+」を選択し、「+ New field」を選択する](../image/image5-6.png)
+- Tableレイアウトのビューで、一覧の右端の「+」を選択し、「+ New field」を選択する
+  ![一覧の右端の「+」を選択し、「+ New field」を選択する](../image/image5-6.png)
 - 「Field name」を`Iteration`に変更し、「Field type」を「Iteration」に変更する
   ![「Field name」を`Iteration`に変更し、「Field type」を「Iteration」に変更する](../image/image5-7.png)
 - 「Options」の「Starts on」と「Duration」を操作し、イテレーションの開始日と期間を設定する
@@ -83,16 +83,48 @@ IssuesのLabelがProjectでも利用できることを確認する。
 
 IssuesのMilestonesがProjectsでも利用できることを確認する。
 
-- `hol-javascript-calculator`リポジトリのナビゲーションのIssuesから、Milestonesを追加してみる
-  - ![add a milestone](../image/image5-12.png)
-  - Issue2つにそれぞれMilestoneを設定してみる
-  - Projectに戻り、ロードマップで見てみる
-  - 2つのIssueのうち、1つクローズしてみる
-    - Milestoneを確認すると進捗50％になってること確認する
-- Project Insightを見てみる
-- **デモ**
-  - Projectをテンプレートにするボタンがどこにあるかを確認する
-  - Organization配下のProjectでのみ行えるので、講師は自身の管理するOrganizationの下のProjectを開き、Settingsから該当の位置を見せる
+- `hol-javascript-calculator`リポジトリのナビゲーションのIssuesから、「Milestones」を選択し、Milestones一覧を表示する
+  ![add a milestone](../image/image5-12.png)
+- 「New Milestone」ボタンを選択する
+  ![「New Milestone」ボタンを選択する](../image/image5-new-milestone.png)
+- 「Title」に任意の文字列を入力し、「Due date」に本日の日付を指定して、「Create milestone」ボタンを選択してMilestoneを作成する
+  ![Titleを入力し、Milestoneを作成する](../image/image5-create-new-milestone.png)
+- 2つのIssueにそれぞれMilestoneを設定する
+  > [!TIP]
+  > Issueのうち1つはcloseされているはずなので、フィルタの`is:open`を削除してすべて表示させるか、一覧上部の「✓ 1 Closed」を選択して、CloseしたIssues一覧を表示して作業を進める
+  - IssueにMilestoneを紐付ける
+    ![IssueにMilestoneを紐付ける](../image/image5-associate-milestone-to-issue.png)
+- Milestoneを確認すると進捗50％になってること確認する
+  ![Milestoneの進捗が50%を示している](../image/image5-milestone-progress-shows-50.png)
+
+ProjectのRoadmapレイアウトのビューの見え方を確認する。
+
+- Projectに戻り、Roadmapレイアウトのビューを作成する
+  ![ProjectでRoadmapレイアウトのビューを作成する](../image/image5-project-new-view-select-roadmap.png)
+- 「Markers」に「Milestone」を指定する
+  ![「Markers」に「Milestone」を指定する](../image/image5-project-set-milestone-as-marker-in-roadmap.png)
+- Issuesに紐付けたMilestoneがMarkerとして表示されることを確認する
+  ![Issuesに紐付けたMilestoneがMarkerとして表示される](../image/image5-milestone-shown-as-marker-in-roadmap.png)
+
+Project Insightsを見てみる。
+
+- Project画面の右のグラフのアイコンを選択する
+  ![Project Insightsを開く](../image/image5-open-project-insights.png)
+- Project InsightsのDefault chartsやCustom chartsを確認する
+  ![Project Insightsの画面](../image/image5-project-insights.png)
+
+Projectのテンプレートを確認する（講師によるデモ）。
+
+- Projectのテンプレートを新しく作成する
+  - OrganizationのナビゲーションからProjectsを開き、左の「Templates」を開き、「New template」を選択する
+   ![OrganizationのProjectsのTemplatesから新しくテンプレートを作成する](../image/image5-project-new-template.png)
+- 既存のProjectをテンプレートに変換する
+  - 既存のProjectのSettingsを開き、「Templates」で「Make template」を操作する
+  ![ProjectのSettingsで、Templatesのメニューを確認する](../image/image5-template-menu-in-project-settings.png)
+- 既存のProjectをコピーして、テンプレートを新しく作成する
+  - Projectの三点リーダーのボタンから「Copy as template」を選択する
+    ![Projectの三点リーダーのボタンから「Copy as template」を選択する](../image/image5-project-copy-as-template-quickly.png)
+  - 前述のProjectのSettingsのTemplatesから操作する
 
 ## 返信テンプレート
 
