@@ -29,7 +29,7 @@ Repositoryのロールを確認する。Organizationの機能のため、講師�
   - 講師はOrganizationとEnterpriseの設定画面を示す
   - OrganizationでTeamを作ってみせる
     - 親子ができることを示す
-    - リポジトリの設定から、チームにロールを与えられることを示す 
+    - リポジトリの設定から、チームにロールを与えられることを示す
 
 ---
  [前ドメインへ](../domain5/README.md)  
