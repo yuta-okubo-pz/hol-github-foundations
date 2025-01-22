@@ -29,11 +29,12 @@ Issueの作成と操作について確認する。
 
 > [!TIP]
 > これは、以下のようなケースで使うことを講師は説明する
+>
 > - もし重複したIssueを見つけたとしても、多くの人にはIssueの削除の権限がない
 > - 削除できないが、「解決済み」としてcloseするのは適切でない
 > - そこで、クローズする前にマークしておくことで、クローズの理由を伝えることができる
 > - 現在はクローズの種類として「Close as not planned」があるのでそれを併せて使う
- 
+
 - リポジトリをもう１つ作る
   - 名前は`foundations-hands-on-3`
     - パブリック、READMEあり、ライセンスはMIT、.gitignoreはなし
@@ -136,6 +137,7 @@ Pull requestの作成と操作について確認する。
 ## Discussions
 
 Discussionsについて確認する。
+
 - `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsを有効化する
   - ![Settings](../image/image3-20.png)
   - ![Discussions](../image/image3-21.png)
@@ -235,8 +237,7 @@ Gistについて確認する。
 - fork/cloneのやり方を確認する
   - 対象のgistを開いた状態で、右上の「Embed」のプルダウンから「Clone via HTTPS」を押して、クローンする
     - ![embed](../image/image3-26.png)
-  - 自身のものはforkできないので、[
-rxaviers/gist:7360908](https://gist.github.com/rxaviers/7360908)にアクセスする
+  - 自身のものはforkできないので、[rxaviers/gist:7360908](https://gist.github.com/rxaviers/7360908)にアクセスする
     - 右上のForkを押す
       - ![fork gist](../image/image3-27.png)
     - 自身のgistにforkされたことを確認する
@@ -279,6 +280,7 @@ GitHub Pagesについて確認する。
   - ![access github pages](../image/image3-30.png) 
 - この`foundations-hands-on-2`リポジトリに新しく`index.html`という名前のファイルを作成する
   - 以下の内容を貼り付けてファイルを新規に作成する
+
     ```html
     <!DOCTYPE html>
     <html lang="ja">
@@ -291,6 +293,7 @@ GitHub Pagesについて確認する。
     </body>
     </html>
     ```
+
   - ファイルを追加後、しばらくして再度PagesのURLにアクセスして、作成した`index.html`の内容が展開されていることを確認する
 - もう一つのデプロイ方法を確認するため、Settings > PagesのSourceのプルダウンを開き、「GitHub Action」の選択肢があることを確認する
 
