@@ -34,7 +34,7 @@ github.com上でのファイルの追加方法を確認する。
     - (*)ウインドウのサイズなどによって「Add file」ボタンが「＋」ボタンになっている場合がある
   - ファイル名に`.github/README.md`と入力
   - ![input file name](../image/image2-5.png)
-  - 本文に`# foundaitons-hands-on-2`と入力してコミットする
+  - 本文に`# foundations-hands-on-2`と入力してコミットする
   - ![変更内容をコミット](../image/image2-9.png)
 - ナビゲーションのCodeで、今作ったファイルがREADMEとして表示されていることを確認する
   - これによって、複数のREADMEがある場合、`.github`ディレクトリ -> rootディレクトリ -> `docs`ディレクトリの順で優先的に表示されるようになっていることが分かる
