@@ -100,8 +100,10 @@ Pull requestの作成と操作について確認する。
   - ![close pull request](../image/image3-16.png)
 - レビューしてみる
   - (*)自分のものにもレビューはできるが、できるだけハンズオンの相方のものをレビューしてみる
-  - Files changedタブで、ファイルの変更内容の差分を確認して、指摘したい部分をクリックしてコメントを入力して「Start a review」を押す
+  - Files changedタブで、ファイルの変更内容の差分を確認して、指摘したい部分にマウスカーソルを持っていって表示された「＋」アイコンをクリックする
     - ![start a review](../image/image3-16-a.png)
+  - コメントを入力して「Start a review」を押す
+    - ![write comments](../image/image3-16-a-2.png)
   - 「Start a review」を押すと、図のようにpending状態になるので、他のコメントを追加して複数のコメントをまとめて1つのレビューとして送ることができる
     - ![pending](../image/image3-16-b.png)
   - コメントを書き終わったら「Finish your review」を押してレビューを送る。この時にレビューのコメントを入力し、状態として「Comment」「Approve」「Request changes」のいずれかを選ぶことができる(自分自身へのレビューの場合は「Comment」しか選択できない)ので、状態を選択して「Submit review」を押す
