@@ -28,9 +28,9 @@
   - Visual Studio Codeの画面下部に、ターミナル(文字でコマンドを入力して作業を行う場所)が表示される
   - ![ターミナル](../image/image1-5.png)
 - ターミナルで、gitの初期設定を行う（※後述）
-    - `git config --global user.name "あなたの名前"`コマンドを実行する
-    - `git config --global user.email "あなたのgithubのアカウントのメールアドレス"`コマンドを実行する
-      - (*)`--global`オプションをつけると、この設定があなたのPCのアカウント全体に適用される
+  - `git config --global user.name "あなたの名前"`コマンドを実行する
+  - `git config --global user.email "あなたのgithubのアカウントのメールアドレス"`コマンドを実行する
+    - (*)`--global`オプションをつけると、この設定があなたのPCのアカウント全体に適用される
 - リポジトリのページのナビゲーションのCodeで、「Code」ボタンからHTTPSのURLをコピーする
   - ![URLをコピー](../image/image1-1.png)
   - ターミナルで`git clone 取得したURL`コマンドを実行する。このコマンドを実行すると、ターミナルで開いているディレクトリに`foundations-hands-on-1`というディレクトリが作成され、その中にリポジトリのファイルがクローンされる
