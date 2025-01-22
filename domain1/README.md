@@ -27,7 +27,7 @@
   - ![新しいターミナル](../image/image1-4.png)
   - Visual Studio Codeの画面下部に、ターミナル(文字でコマンドを入力して作業を行う場所)が表示される
   - ![ターミナル](../image/image1-5.png)
-- ターミナルで、gitの初期設定を行う
+- ターミナルで、gitの初期設定を行う（※後述）
     - `git config --global user.name "あなたの名前"`コマンドを実行する
     - `git config --global user.email "あなたのgithubのアカウントのメールアドレス"`コマンドを実行する
       - (*)`--global`オプションをつけると、この設定があなたのPCのアカウント全体に適用される
@@ -69,6 +69,9 @@
 - 画面で変更したものをローカルのリポジトリに反映する
   - Visual Studio Codeのターミナルで`git pull`コマンドを実行する
   - `README.md`が変更されているのを確認する
+
+※ Gitの初期設定（`git config`）についての詳細は、[Gitの初期設定](https://git-scm.com/book/ja/v2/%e4%bd%bf%e3%81%84%e5%a7%8b%e3%82%81%e3%82%8b-%e6%9c%80%e5%88%9d%e3%81%aeGit%e3%81%ae%e6%a7%8b%e6%88%90)の「個人の識別情報」をご参照ください。
+
 
 ## GitHub Desktop
 
