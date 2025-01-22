@@ -9,7 +9,7 @@ GitHub Actionsについて確認する。
 
 Actionsのワークフローをテンプレートから作成できることを確認する。
 
-- ナビゲーションのActionsにアクセスし、「set up a workflow yourself」リンクを選択する
+- ナビゲーションのActionsにアクセスし、「set up a workflow yourself」リンクを選択する  
   ![ナビゲーションのActionsにアクセスし、「set up a workflow yourself」リンクを選択する](../image/image4-1.png)
 - 今回は空のワークフローを作成する。ファイル名は`ci.yml`とする（ディレクトリは`hol-javascript-calculator/.github/workflows`のままでよい）。
 - [サンプルのYAML](./ci.yml)の内容を貼り付けて、「Commit changes...」ボタンから`main`ブランチにコミットする
@@ -22,7 +22,7 @@ Actionsのワークフローをテンプレートから作成できることを�
 
 このサンプルではトリガーに`workflow_dispatch`が指定されているので、ワークフローを手動で実行できることを確認する。
 
-- ナビゲーションのActionsからActionsの実行一覧を開き、ワークフローの「CI」を選択する。「Run workflow」プルダウンから、「Run workflow」ボタンを選択し、ワークフローを手動で実行する。
+- ナビゲーションのActionsからActionsの実行一覧を開き、ワークフローの「CI」を選択する。「Run workflow」プルダウンから、「Run workflow」ボタンを選択し、ワークフローを手動で実行する。  
   ![workflow_dispatchのトリガが設定されたワークフローを手動で実行する](../image/image4-2.png)
   - 実行するブランチは「main」のままとする
 
@@ -67,7 +67,7 @@ GitHub Copilot Code completion（コード補完）の動作を確認する。
 GitHub Codespacesについて確認する。各個人がPublicに作成したリポジトリ上での利用であれば無料枠内で利用できるが、アカウントの制限でプライベートリポジトリしか作れない等でCodespacesを利用できない場合は講師のデモを見る。
 
 - ブラウザで自身のアカウントの配下に作成した`hol-javascript-calculator`リポジトリを開き、ナビゲーションのCodeを開く
-- 「Code」ボタンのプルダウンからCodespacesタブの「Create codespace on main」ボタンでcodespaceを開いてみる
+- 「Code」ボタンのプルダウンからCodespacesタブの「Create codespace on main」ボタンでcodespaceを開いてみる  
   ![「Code」ボタンの「Codespaces」タブから、「Create codespace on main」ボタンでcodespaceを開く](../image/image4-3.png)
 - ブラウザでVS Codeの画面が開き、ファイルが修正出来ることを確認する
 - 画面上部の「Terminal」→「New terminal」からターミナルを開き、`npm install`を実行してみる
