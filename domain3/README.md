@@ -17,7 +17,7 @@ Issueの作成と操作について確認する。
 - 2つめのIssueを作る
   - 1つめと同じ、「README.mdの更新」という内容にする
 - Issueの一覧で、フィルターやソートをしてみる
-- それぞれのIssueの一番下のボタンからクローズ、再オープンしてみる 
+- それぞれのIssueの一番下のボタンからクローズ、再オープンしてみる
   - 「Close issue」ボタンの右の「▼」でプルダウンが開き、クローズに2種類あることを確認する
   - ![close issue](../image/image3-4.png)
   - ナビゲーションのIssuesをクリックしてIssueの一覧画面に戻り、フィルターの「is:open」を「is:closed」に変更すると、クローズしたissueの一覧が表示される。そのうちの一つにアクセスして、再度オープンしてみる
@@ -99,7 +99,7 @@ Pull requestの作成と操作について確認する。
   - コメントの下のボタンを押してClose、Reopenできる
   - ![close pull request](../image/image3-16.png)
 - レビューしてみる
-  - (*)自分のものにもレビューはできるが、できるだけハンズオンの相方のものをレビューしてみる 
+  - (*)自分のものにもレビューはできるが、できるだけハンズオンの相方のものをレビューしてみる
   - Files changedタブで、ファイルの変更内容の差分を確認して、指摘したい部分をクリックしてコメントを入力して「Start a review」を押す
     - ![start a review](../image/image3-16-a.png)
   - 「Start a review」を押すと、図のようにpending状態になるので、他のコメントを追加して複数のコメントをまとめて1つのレビューとして送ることができる
@@ -168,7 +168,6 @@ Discussionsについて確認する。
       - ![pin discussion](../image/image3-21-i.png)
     - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、ピン留めされたDiscussionが一番上に表示されることを確認する
       - ![pinned discussion](../image/image3-21-j.png)
-    - 
     - 再度Discussionを開いて、「Unpin discussion」を押してピン留めを解除する
       - ![unpin discussion](../image/image3-21-k.png)
     - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、ピン留めが解除されているを確認する
@@ -277,7 +276,7 @@ GitHub Pagesについて確認する。
   - Sourceに「Deploy from branch」を選び、Branchで`main`を選択し、ディレクトリとして「/(root)」が選択されていることを確認し、「Save」ボタンを押して保存する
   - ![github pages](../image/image3-29.png)
 - しばらくしてこのGitHub Pagesの設定ページをリロードすると、公開されたPagesのURLが表示されるので、URLのリンクまたは「Visit site」ボタンからアクセスする。`README.md`ファイルが静的サイトとして展開されていることを確認する
-  - ![access github pages](../image/image3-30.png) 
+  - ![access github pages](../image/image3-30.png)
 - この`foundations-hands-on-2`リポジトリに新しく`index.html`という名前のファイルを作成する
   - 以下の内容を貼り付けてファイルを新規に作成する
 
