@@ -38,7 +38,7 @@ Issueの作成と操作について確認する。
 - リポジトリをもう１つ作る
   - 名前は`foundations-hands-on-3`
     - パブリック、READMEあり、ライセンスはMIT、.gitignoreはなし
-  - `foundaitons-hands-on-3`リポジトリでIssueを作る
+  - `foundations-hands-on-3`リポジトリでIssueを作る
     - titleは`転送のテスト`とする
     - Issueの右下の「Transfer」ボタンで、`foundations-hand-on-2`リポジトリに転送してみる
     - ![transfer issue](../image/image3-8.png)
@@ -79,7 +79,7 @@ Pull requestの作成と操作について確認する。
 - mainブランチの`README.md`を更新。`foundation-1`という記載を`foundation-2`にし、直接プッシュではなく`Create a new branch`を押す
   - Pull request画面に移動するが、ナビゲーションのPull requestsを押してキャンセルする
 - 作成したブランチからPull requestを作る
-  - ナビゲーションのPull requestssから「New Pull request」を押す
+  - ナビゲーションのPull requestsから「New Pull request」を押す
   - ![new pull request](../image/image3-13.png)
   - タイトルに`Update README.md`を入れる
   - Descriptionは適宜入力しつつ、`Close #1`を入れる(もし作成したIssueの番号がずれてるなら#の後ろの数字を変える。#を入れたら補完が効く)
@@ -96,7 +96,7 @@ Pull requestの作成と操作について確認する。
   - ![convert to draft](../image/image3-14.png)
   - draftになったPull requestは、コメントの下の方の「Ready for review」を押してOpenに戻せる
   - ![ready for review](../image/image3-15.png)
-  - コメントの下のボタンを押してCloss、Reopenできる
+  - コメントの下のボタンを押してClose、Reopenできる
   - ![close pull request](../image/image3-16.png)
 - レビューしてみる
   - (*)自分のものにもレビューはできるが、できるだけハンズオンの相方のものをレビューしてみる 
@@ -141,7 +141,7 @@ Discussionsについて確認する。
 - `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsを有効化する
   - ![Settings](../image/image3-20.png)
   - ![Discussions](../image/image3-21.png)
-- ナビゲーションにDiscusisonsが表示されることを確認する
+- ナビゲーションにDiscussionsが表示されることを確認する
   - ![Discussions on navigation](../image/image3-21-a.png)
 - Discussionsにアクセスする
 - カテゴリがあることを確認する
@@ -179,7 +179,7 @@ Discussionsについて確認する。
       - ![pinned discussion to Q&A](../image/image3-21-m.png)
   - 時間に余裕があれば複数の「Q&A」カテゴリのDiscussionを作成してみて、ピン留めされたものが一番上に来ることを確認する
     - カテゴリを選んだ状態で「New discussion」を押してDiscussionを作成すると、そのカテゴリに属するDiscussionが作成される(先ほどのカテゴリ選択画面が表示されない)ことを確認する
-    - 新しいDiscusisonを作成した後、ナビゲーションのDiscussionsを押し、CategoriesからQ&Aを選択して「Q&A」カテゴリの一覧を表示すると、以下のようにカテゴリにピン留めされたものが一番上に来ていることが分かる
+    - 新しいDiscussionを作成した後、ナビゲーションのDiscussionsを押し、CategoriesからQ&Aを選択して「Q&A」カテゴリの一覧を表示すると、以下のようにカテゴリにピン留めされたものが一番上に来ていることが分かる
       - ![Create another discussion](../image/image3-21-n.png)
   - DiscussionからIssueを作成してみる
     - Discussionに移動し、「Create issue from discussion」を押す
@@ -196,11 +196,11 @@ Discussionsについて確認する。
   - 通知画面の左下にある「Manage notifications」を押し、「Subscriptions」を選択する
     - ![Subscriptions](../image/image3-31-a.png)
   - これまでに作成したIssueやPull request、DiscussionにSubscribeしていることを確認する
-    - ![List sucscripitons](../image/image3-31-b.png)
+    - ![List subscriptions](../image/image3-31-b.png)
   - Subscriptionの一覧からIssueを選び、クリックして遷移する。Issueは一覧のうち、以下のアイコンのもの
     - ![Issue icon](../image/image3-31-c.png)
   - 画面右に表示されるメタデータの「Notifications」を見て、ボタンが「Unsubscribe」になっており、その下の「Participants」に自分自身のアイコンが表示されていることを確認する
-    - ![nofitication of issue](../image/image3-32.png)
+    - ![notification of issue](../image/image3-32.png)
   - Unsubscribeボタンを押してみる
   - Subscriptionの一覧に戻り、該当のIssueが一覧に無いことを確認する
 - `foundations-hands-on-2`のナビゲーションのCodeに移動し、「Watch」ボタンで何が選べるかを確認する
