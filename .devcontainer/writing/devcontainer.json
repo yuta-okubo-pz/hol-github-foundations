@@ -9,5 +9,6 @@
         "taichi.vscode-textlint"
       ]
     }
-  }
+  },
+  "onCreateCommand": "bash ./.devcontainer/writing/scripts/onCreateCommand.sh"
 }
