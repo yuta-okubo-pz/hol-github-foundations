@@ -59,7 +59,7 @@ Issueの作成と操作について確認する。
     - ![Custom template の編集画面](../image/image3-10-d.png)
     - 作成したファイルは`.github/ISSUE_TEMPLATES/`にあることを確認する
   - **Forms**：Bug report のフォームを作る
-    - Formsは[サンプルのYAML](./bug-report.yml)をコピペして、`.github/ISSUE_TEMPLATES/bug-report.yml`を作成する
+    - Issue formsの定義は[サンプルのYAML](./bug-report.yml)をコピペして、`.github/ISSUE_TEMPLATES/bug-report.yml`を作成する
   - ナビゲーションのIssuesからIssue一覧画面に戻って「New issue」ボタンを押し、Issue templateとIssue formsを使ってIssueを作ってみる
 
 ## Pull requestの作成と操作
@@ -74,10 +74,10 @@ Pull requestの作成と操作について確認する。
   - ハンズオンの相方をCODEOWNERSファイルでレビュアーにいれておく
   - 書式は`*    @相方のアカウント名`
   - ![CODEOWNERS](../image/image3-11.png)
-- github.com上でリポジトリにアクセスし、ナビゲーションのCodeから適当なファイルを選ぶと、設定したアカウント名がオーナーとしてホバーされることを確認する
+- github.com上でリポジトリにアクセスし、ナビゲーションのCodeから適当なファイルを選び、設定したアカウント名がオーナーとして表示されることを確認する（マウスカーソルを乗せると表示される）
 - ![hover codeowner](../image/image3-12.png)
 - mainブランチの`README.md`を更新。`foundation-1`という記載を`foundation-2`にし、直接プッシュではなく`Create a new branch`を押す
-  - Pull request画面に移動するが、ナビゲーションのPull requestsを押してキャンセルする
+  - Pull request画面に移動するが、本ハンズオンでは、ナビゲーションのPull requestsを押してキャンセルする
 - 作成したブランチからPull requestを作る
   - ナビゲーションのPull requestsから「New Pull request」を押す
   - ![new pull request](../image/image3-13.png)
@@ -112,9 +112,9 @@ Pull requestの作成と操作について確認する。
   - レビュアーはコメントを確認して、問題なければ「Resolve conversation」を押して解決済みにする
   - ![resolve conversation](../image/image3-16-d.png)
 - レビューで変更提案を出す
-  - ツールチップからか、[suggestionコードブロック](./suggestion.md)を直接入力する
+  - ツールチップを利用するか、[suggestionコードブロック](./suggestion.md)を直接入力する
   - ![suggestion](../image/image3-17.png)
-  - 「Add single comment」ボタンを押すと即座に提案が送られるが、「Start a review」を押すと以下のようにpending状態になるので、「Finish your review」を押して提案を送る
+  - 「Add single comment」か「Start a review」ボタンを選択する。「Add single comment」ボタンを押すと即座に提案が送られるが、「Start a review」を押すと以下のようにpending状態になるので、「Finish your review」を押して提案を送る。
     - ![pending review](../image/image3-17-a.png)
   - 提案を取り入れると即座に内容がコミットされることを確認する
     - ![commit suggestion](../image/image3-18.png)
