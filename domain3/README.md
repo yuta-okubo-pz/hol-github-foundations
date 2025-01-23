@@ -76,7 +76,7 @@ Pull requestの作成と操作について確認する。
   - ![CODEOWNERS](../image/image3-11.png)
 - github.com上でリポジトリにアクセスし、ナビゲーションのCodeから適当なファイルを選び、設定したアカウント名がオーナーとして表示されることを確認する（マウスカーソルを乗せると表示される）
 - ![hover codeowner](../image/image3-12.png)
-- mainブランチの`README.md`を更新。`foundation-1`という記載を`foundation-2`にし、直接プッシュではなく`Create a new branch`を押す
+- mainブランチの`README.md`を更新。`foundations-hands-on-1`という記載を`foundations-hands-on-2`に修正し、直接プッシュではなく`Create a new branch`を押す
   - Pull request画面に移動するが、本ハンズオンでは、ナビゲーションのPull requestsを押してキャンセルする
 - 作成したブランチからPull requestを作る
   - ナビゲーションのPull requestsから「New Pull request」を押す
