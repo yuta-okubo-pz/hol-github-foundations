@@ -57,9 +57,9 @@ Issueの作成と操作について確認する。
     - ![Preview and edit](../image/image3-10-b.png)
     - ![Custom template のプレビュー画面](../image/image3-10-c.png)
     - ![Custom template の編集画面](../image/image3-10-d.png)
-    - 作成したファイルは`.github/ISSUE_TEMPLATES/`にあることを確認する
+    - 作成したファイルは`.github/ISSUE_TEMPLATE/`にあることを確認する
   - **Forms**：Bug report のフォームを作る
-    - Issue formsの定義は[サンプルのYAML](./bug-report.yml)をコピペして、`.github/ISSUE_TEMPLATES/bug-report.yml`を作成する
+    - Issue formsの定義は[サンプルのYAML](./bug-report.yml)をコピペして、`.github/ISSUE_TEMPLATE/bug-report.yml`を作成する
   - ナビゲーションのIssuesからIssue一覧画面に戻って「New issue」ボタンを押し、Issue templateとIssue formsを使ってIssueを作ってみる
 
 ## Pull requestの作成と操作
