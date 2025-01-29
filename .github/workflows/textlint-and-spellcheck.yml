@@ -1,0 +1,11 @@
+name: textlint and spellckeck
+
+on:
+  workflow_dispatch
+
+jobs:
+    textlint-and-spellcheck:
+        runs-on: ubuntu-latest
+        steps:
+        - name: Checkout
+          uses: actions/checkout@v4  
