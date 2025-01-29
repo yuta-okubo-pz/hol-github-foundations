@@ -66,7 +66,7 @@ Issueの作成と操作について確認する。
 
 Pull requestの作成と操作について確認する。
 
-- １. `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、CODEOWNERSファイルを新規に作成する
+- １０. `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、CODEOWNERSファイルを新規に作成する
   - ハンズオンの相方をリポジトリに招待する
     - リポジトリのナビゲーションのSettingsからCollaborators and teamsにアクセスし、「Add people」ボタンを押す
     - ![ユーザーをリポジトリへ招待](../image/image3-35.png)
@@ -74,11 +74,11 @@ Pull requestの作成と操作について確認する。
   - ハンズオンの相方をCODEOWNERSファイルでレビュアーにいれておく
   - 書式は`*    @相方のアカウント名`
   - ![CODEOWNERS](../image/image3-11.png)
-- ２. github.com上でリポジトリにアクセスし、ナビゲーションのCodeから適当なファイルを選び、設定したアカウント名がオーナーとして表示されることを確認する（マウスカーソルを乗せると表示される）
+- １１. github.com上でリポジトリにアクセスし、ナビゲーションのCodeから適当なファイルを選び、設定したアカウント名がオーナーとして表示されることを確認する（マウスカーソルを乗せると表示される）
   - ![hover codeowner](../image/image3-12.png)
-- ３. mainブランチの`README.md`を更新。`foundations-hands-on-1`という記載を`foundations-hands-on-2`に修正し、直接プッシュではなく`Create a new branch`を押す
+- １２. mainブランチの`README.md`を更新。`foundations-hands-on-1`という記載を`foundations-hands-on-2`に修正し、直接プッシュではなく`Create a new branch`を押す
   - Pull request画面に移動するが、本ハンズオンでは、ナビゲーションのPull requestsを押してキャンセルする
-- ４. 作成したブランチからPull requestを作る
+- １３. 作成したブランチからPull requestを作る
   - ナビゲーションのPull requestsから「New Pull request」を押す
   - ![new pull request](../image/image3-13.png)
   - タイトルに`Update README.md`を入れる
@@ -86,11 +86,11 @@ Pull requestの作成と操作について確認する。
   - 「Create pull request」ボタンの右の「▼」を押し、draftで作成することもできることを確認する
   - 「Create pull request」ボタンを押してPull requestを作成する
   - 作成したらCODEOWNERSに先ほど入れた、ハンズオンの相方の人が自動的にレビュアーに入ってる事を確認する
-- ５. 作成したPull requestの画面で、これらの「Conversation」「Commits」「Checks」「Files changed」タブがあることを確認する
+- １４. 作成したPull requestの画面で、これらの「Conversation」「Commits」「Checks」「Files changed」タブがあることを確認する
   - ![4 tabs](../image/image3-36.png)
-- ６. コメントしてみる
+- １５. コメントしてみる
   - マークダウンやslash commandが使えることを確認する
-- ７. Pull requestのステータスについて確認する
+- １６. Pull requestのステータスについて確認する
   - 作った状態がOpen
   - Reviewersの所からdraftに変更できる。作業中でまだレビューを受けられる状態ではないようなときはdraftにしておく(作成時にdraftにもできる)
   - ![convert to draft](../image/image3-14.png)
@@ -98,7 +98,7 @@ Pull requestの作成と操作について確認する。
   - ![ready for review](../image/image3-15.png)
   - コメントの下のボタンを押してClose、Reopenできる
   - ![close pull request](../image/image3-16.png)
-- ８. レビューしてみる
+- １７. レビューしてみる
   - (*)自分のものにもレビューはできるが、できるだけハンズオンの相方のものをレビューしてみる
   - Files changedタブで、ファイルの変更内容の差分を確認して、指摘したい部分にマウスカーソルを持っていって表示された「＋」アイコンをクリックする
     - ![start a review](../image/image3-16-a.png)
@@ -108,30 +108,30 @@ Pull requestの作成と操作について確認する。
     - ![pending](../image/image3-16-b.png)
   - コメントを書き終わったら「Finish your review」を押してレビューを送る。この時にレビューのコメントを入力し、状態として「Comment」「Approve」「Request changes」のいずれかを選ぶことができる(自分自身へのレビューの場合は「Comment」しか選択できない)ので、状態を選択して「Submit review」を押す
     - ![Finish your review](../image/image3-16-c.png)
-- ９. レビューを確認し、対応する
+- １８. レビューを確認し、対応する
   - Conversationタブでレビュー内容を確認して、修正を行う(修正内容をコミットし、プッシュする)
   - レビューに返信する
   - レビュアーはコメントを確認して、問題なければ「Resolve conversation」を押して解決済みにする
   - ![resolve conversation](../image/image3-16-d.png)
-- １０. レビューで変更提案を出す
+- １９. レビューで変更提案を出す
   - ツールチップを利用するか、[suggestionコードブロック](./suggestion.md)を直接入力する
   - ![suggestion](../image/image3-17.png)
   - 「Add single comment」か「Start a review」ボタンを選択する。「Add single comment」ボタンを押すと即座に提案が送られるが、「Start a review」を押すと以下のようにpending状態になるので、「Finish your review」を押して提案を送る。
     - ![pending review](../image/image3-17-a.png)
   - 提案を取り入れると即座に内容がコミットされることを確認する
     - ![commit suggestion](../image/image3-18.png)
-- １１. Pull requestのメタデータの「Development」からIssue #2を追加でリンクしてみる
+- ２０. Pull requestのメタデータの「Development」からIssue #2を追加でリンクしてみる
   - ![link issue to pull request](../image/image3-19.png)
-- １２. Pull requestをApproveし、マージする
+- ２１. Pull requestをApproveし、マージする
   - レビュアーは自分がコメントしたものが全て解決され、修正内容が問題ないと判断したらApproveする
   - Files changedタブの「Review changes」から「Approve」を選択して「Submit review」を押す
     - ![approve](../image/image3-19-a.png)
   - 全てのレビュアーがApproveしたら、Conversationタブの下の方の「Merge pull request」を押してマージする
     - ![merge](../image/image3-19-b.png)
     - 続けて「Confirm merge」を押してマージを完了する
-- １３. マージしたらPull requestがクローズされてIssueの#1/#2もクローズされることを確認する
+- ２２. マージしたらPull requestがクローズされてIssueの#1/#2もクローズされることを確認する
   - マージでクローズしたPull requestは再オープンができないことを確認する
-- １４. Pull requestテンプレートを作って、テンプレートを使ったpull requestを作ってみる
+- ２３. Pull requestテンプレートを作って、テンプレートを使ったpull requestを作ってみる
   - `.github/pull_request_template.md`を作成する
   - [サンプルテンプレート](./pull_request_template.md)を貼り付けてコミットする
   - 再度READMEを更新してpull requestを作成し、Descriptionにテンプレートの内容が含まれていることを確認する
@@ -140,30 +140,30 @@ Pull requestの作成と操作について確認する。
 
 Discussionsについて確認する。
 
-- １. `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsを有効化する
+- ２４. `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsを有効化する
   - ![Settings](../image/image3-20.png)
   - ![Discussions](../image/image3-21.png)
-- ２. ナビゲーションにDiscussionsが表示されることを確認する
+- ２５. ナビゲーションにDiscussionsが表示されることを確認する
   - ![Discussions on navigation](../image/image3-21-a.png)
-- ３. Discussionsにアクセスする
-- ４. カテゴリがあることを確認する
-- ５. カテゴリ「Q&A」でスレッド(Discussion)を作る
+- ２６. Discussionsにアクセスする
+- ２７. カテゴリがあることを確認する
+- ２８. カテゴリ「Q&A」でスレッド(Discussion)を作る
   - 「New discussion」ボタンを押す
     - ![New discussion](../image/image3-21-b.png)
   - 「Select a discussion category」画面で「Q&A」の「Get started」を押す
     - ![Select a discussion category](../image/image3-21-c.png)
   - TitleとBodyを入力して「Start discussion」を押す
     - ![Start discussion](../image/image3-21-d.png)
-- ６. 回答を書き込んでみる
+- ２９. 回答を書き込んでみる
   - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、先ほど作成したDiscussionにアクセスする
   - 回答を書き込み、「Comment」ボタンを押す
     - ![Write a comment](../image/image3-21-e.png)
-- ７. 回答とマークしてみる
+- ３０. 回答とマークしてみる
   - このQ&Aの回答として採用したいコメントの「Mark as answer」を押す
     - ![Mark as answer](../image/image3-21-f.png)
   - マークされたコメントが回答として表示されることを確認する
     - ![Answer](../image/image3-21-g.png)
-- ８. ピン留めしてみる
+- ３１. ピン留めしてみる
   - 「Pin discussion」と「Pin discussion to Q&A」の2つがあることを確認する
     - ![pin discussion](../image/image3-21-h.png)
   - 「Pin discussion」を押すと背景を選ぶ画面になるので、選択して「Pin discussion」を押してピン留めする
@@ -178,11 +178,11 @@ Discussionsについて確認する。
   - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、一覧表示ではピン留めされていないことを確認する
   - 「Categories」で「Q&A」を選択する。Q&Aカテゴリの一覧で、「Pinned to Q&A」と表示されているのを確認する
     - ![pinned discussion to Q&A](../image/image3-21-m.png)
-- ９. 時間に余裕があれば複数の「Q&A」カテゴリのDiscussionを作成してみて、ピン留めされたものが一番上に来ることを確認する
+- ３２. 時間に余裕があれば複数の「Q&A」カテゴリのDiscussionを作成してみて、ピン留めされたものが一番上に来ることを確認する
   - カテゴリを選んだ状態で「New discussion」を押してDiscussionを作成すると、そのカテゴリに属するDiscussionが作成される(先ほどのカテゴリ選択画面が表示されない)ことを確認する
   - 新しいDiscussionを作成した後、ナビゲーションのDiscussionsを押し、CategoriesからQ&Aを選択して「Q&A」カテゴリの一覧を表示すると、以下のようにカテゴリにピン留めされたものが一番上に来ていることが分かる
     - ![Create another discussion](../image/image3-21-n.png)
-- １０. DiscussionからIssueを作成してみる
+- ３３. DiscussionからIssueを作成してみる
   - Discussionに移動し、「Create issue from discussion」を押す
     - ![Create issue from discussion](../image/image3-22.png)
 
@@ -190,10 +190,10 @@ Discussionsについて確認する。
 
 通知について確認する。
 
-- １. github.comの任意のページから、画面右上のファイルボックスのアイコンを押して通知画面を開き、届いている通知一覧を見る
+- ３４. github.comの任意のページから、画面右上のファイルボックスのアイコンを押して通知画面を開き、届いている通知一覧を見る
   - 開くとInboxの一覧が表示される
   - ![notifications](../image/image3-31.png)
-- ２. 自身のsubscribe状態を確認・変更する
+- ３５. 自身のsubscribe状態を確認・変更する
   - 通知画面の左下にある「Manage notifications」を押し、「Subscriptions」を選択する
     - ![Subscriptions](../image/image3-31-a.png)
   - これまでに作成したIssueやPull request、DiscussionにSubscribeしていることを確認する
@@ -204,9 +204,9 @@ Discussionsについて確認する。
     - ![notification of issue](../image/image3-32.png)
   - Unsubscribeボタンを押してみる
   - Subscriptionの一覧に戻り、該当のIssueが一覧に無いことを確認する
-- ３. `foundations-hands-on-2`のナビゲーションのCodeに移動し、「Watch」ボタンで何が選べるかを確認する
+- ３６. `foundations-hands-on-2`のナビゲーションのCodeに移動し、「Watch」ボタンで何が選べるかを確認する
   - ![watch of repository](../image/image3-33.png)
-- ４. github.comの任意のページで、右上のアカウントアイコンをクリックする
+- ３７. github.comの任意のページで、右上のアカウントアイコンをクリックする
   - ![account icon](../image/image2-7.png)
   - 「Settings」を押す
     - ![settings](../image/image3-33-a.png)
@@ -218,16 +218,16 @@ Discussionsについて確認する。
 
 Gistについて確認する。
 
-- １. github.comの任意のページからアカウントアイコンを押す
+- ３８. github.comの任意のページからアカウントアイコンを押す
   - ![account icon](../image/image2-7.png)
   - 「Your Gists」を押す
     - ![your gist](../image/image3-23.png)
-- ２. 右上の「＋」ボタンを押して新しいGistを作る
+- ３９. 右上の「＋」ボタンを押して新しいGistを作る
   - 「Filename including extension」に`foundations-hands-on-1.md`と入力
   - ファイルの内容を書く
   - 「Create secret gist」ボタンを押す
   - ![create secret gist](../image/image3-23-a.png)
-- ３. gistをPublicにしてみる
+- ４０. gistをPublicにしてみる
   - 対象のgistを開いた状態で、右上の「Edit」ボタンを押す
     - ![edit gist](../image/image3-24.png)
   - 右上の「Make public」ボタンを押す
@@ -235,7 +235,7 @@ Gistについて確認する。
     - ![browser alert](../image/image3-25-a.png)
   - Publicになったgistの右上の「Edit」ボタンを押す
   - Secretに切り替えるボタンがないことを確認する
-- ４. fork/cloneのやり方を確認する
+- ４１. fork/cloneのやり方を確認する
   - 対象のgistを開いた状態で、右上の「Embed」のプルダウンから「Clone via HTTPS」を押して、クローンする
     - ![embed](../image/image3-26.png)
   - 自身のものはforkできないので、[rxaviers/gist:7360908](https://gist.github.com/rxaviers/7360908)にアクセスする
@@ -248,7 +248,7 @@ Gistについて確認する。
 
 Wikiについて確認する。
 
-- １. `foundations-hands-on-2`リポジトリのナビゲーションのWikiからWikiにアクセスして、読み書きしてみる
+- ４２. `foundations-hands-on-2`リポジトリのナビゲーションのWikiからWikiにアクセスして、読み書きしてみる
   - 「Create the first page」を押す
     - ![Create the first page](../image/image3-27-b.png)
   - Title(デフォルトで「Home」と入っている)とページの本文(デフォルトで「Welcome to the foundations-hands-on-2 wiki!」と入っている)を編集する。「Edit message」はWikiのページを作成・編集したときに履歴に残す説明メッセージなので適宜入力する。
@@ -264,22 +264,22 @@ Wikiについて確認する。
     - ![Save sidebar page](../image/image3-27-g.png)
   - Pagesの下にsidebarが表示されていることを確認する
     - ![sidebar](../image/image3-27-h.png)
-- ２. ナビゲーションのSettings > FeaturesでWikiの権限を見てみる
+- ４３. ナビゲーションのSettings > FeaturesでWikiの権限を見てみる
   - 「Restrict editing to collaborators only」がチェックされていると、collaboratorのみが編集できる。GitHubアカウントを持つユーザーならだれでも編集できるようにするにはチェックを外す
     - ![Restrict editing to collaborators only](../image/image3-28.png)
-- ３. ナビゲーションのSettings > Featuresから、Wikiを無効化してみる
+- ４４. ナビゲーションのSettings > Featuresから、Wikiを無効化してみる
   - 「Wikis」のチェックを外すと、ナビゲーションからWikiが消えていることを確認する
 
 ## Pagesについて
 
 GitHub Pagesについて確認する。
 
-- １. `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからPagesを構成する  
+- ４５. `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからPagesを構成する  
   - Sourceに「Deploy from branch」を選び、Branchで`main`を選択し、ディレクトリとして「/(root)」が選択されていることを確認し、「Save」ボタンを押して保存する
   - ![github pages](../image/image3-29.png)
-- ２. しばらくしてこのGitHub Pagesの設定ページをリロードすると、公開されたPagesのURLが表示されるので、URLのリンクまたは「Visit site」ボタンからアクセスする。`README.md`ファイルが静的サイトとして展開されていることを確認する
+- ４６. しばらくしてこのGitHub Pagesの設定ページをリロードすると、公開されたPagesのURLが表示されるので、URLのリンクまたは「Visit site」ボタンからアクセスする。`README.md`ファイルが静的サイトとして展開されていることを確認する
   - ![access github pages](../image/image3-30.png)
-- ３. この`foundations-hands-on-2`リポジトリに新しく`index.html`という名前のファイルを作成する
+- ４７. この`foundations-hands-on-2`リポジトリに新しく`index.html`という名前のファイルを作成する
   - 以下の内容を貼り付けてファイルを新規に作成する
 
     ```html
@@ -296,7 +296,7 @@ GitHub Pagesについて確認する。
     ```
 
   - ファイルを追加後、しばらくして再度PagesのURLにアクセスして、作成した`index.html`の内容が展開されていることを確認する
-- ４. もう一つのデプロイ方法を確認するため、Settings > PagesのSourceのプルダウンを開き、「GitHub Action」の選択肢があることを確認する
+- ４８. もう一つのデプロイ方法を確認するため、Settings > PagesのSourceのプルダウンを開き、「GitHub Action」の選択肢があることを確認する
 
 ---
 
