@@ -66,7 +66,7 @@ Issueの作成と操作について確認する。
 
 Pull requestの作成と操作について確認する。
 
-- １０. `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、CODEOWNERSファイルを新規に作成する
+- １. `foundations-hands-on-2`リポジトリにgithub.comでアクセスし、CODEOWNERSファイルを新規に作成する
   - ハンズオンの相方をリポジトリに招待する
     - リポジトリのナビゲーションのSettingsからCollaborators and teamsにアクセスし、「Add people」ボタンを押す
     - ![ユーザーをリポジトリへ招待](../image/image3-35.png)
@@ -74,11 +74,11 @@ Pull requestの作成と操作について確認する。
   - ハンズオンの相方をCODEOWNERSファイルでレビュアーにいれておく
   - 書式は`*    @相方のアカウント名`
   - ![CODEOWNERS](../image/image3-11.png)
-- １１. github.com上でリポジトリにアクセスし、ナビゲーションのCodeから適当なファイルを選び、設定したアカウント名がオーナーとして表示されることを確認する（マウスカーソルを乗せると表示される）
+- ２. github.com上でリポジトリにアクセスし、ナビゲーションのCodeから適当なファイルを選び、設定したアカウント名がオーナーとして表示されることを確認する（マウスカーソルを乗せると表示される）
   - ![hover codeowner](../image/image3-12.png)
-- １２. mainブランチの`README.md`を更新。`foundations-hands-on-1`という記載を`foundations-hands-on-2`に修正し、直接プッシュではなく`Create a new branch`を押す
+- ３. mainブランチの`README.md`を更新。`foundations-hands-on-1`という記載を`foundations-hands-on-2`に修正し、直接プッシュではなく`Create a new branch`を押す
   - Pull request画面に移動するが、本ハンズオンでは、ナビゲーションのPull requestsを押してキャンセルする
-- １３. 作成したブランチからPull requestを作る
+- ４. 作成したブランチからPull requestを作る
   - ナビゲーションのPull requestsから「New Pull request」を押す
   - ![new pull request](../image/image3-13.png)
   - タイトルに`Update README.md`を入れる
@@ -86,11 +86,11 @@ Pull requestの作成と操作について確認する。
   - 「Create pull request」ボタンの右の「▼」を押し、draftで作成することもできることを確認する
   - 「Create pull request」ボタンを押してPull requestを作成する
   - 作成したらCODEOWNERSに先ほど入れた、ハンズオンの相方の人が自動的にレビュアーに入ってる事を確認する
-- １４. 作成したPull requestの画面で、これらの「Conversation」「Commits」「Checks」「Files changed」タブがあることを確認する
+- ５. 作成したPull requestの画面で、これらの「Conversation」「Commits」「Checks」「Files changed」タブがあることを確認する
   - ![4 tabs](../image/image3-36.png)
-- １５. コメントしてみる
+- ６. コメントしてみる
   - マークダウンやslash commandが使えることを確認する
-- １６. Pull requestのステータスについて確認する
+- ７. Pull requestのステータスについて確認する
   - 作った状態がOpen
   - Reviewersの所からdraftに変更できる。作業中でまだレビューを受けられる状態ではないようなときはdraftにしておく(作成時にdraftにもできる)
   - ![convert to draft](../image/image3-14.png)
@@ -98,7 +98,7 @@ Pull requestの作成と操作について確認する。
   - ![ready for review](../image/image3-15.png)
   - コメントの下のボタンを押してClose、Reopenできる
   - ![close pull request](../image/image3-16.png)
-- １７. レビューしてみる
+- ８. レビューしてみる
   - (*)自分のものにもレビューはできるが、できるだけハンズオンの相方のものをレビューしてみる
   - Files changedタブで、ファイルの変更内容の差分を確認して、指摘したい部分にマウスカーソルを持っていって表示された「＋」アイコンをクリックする
     - ![start a review](../image/image3-16-a.png)
@@ -108,30 +108,30 @@ Pull requestの作成と操作について確認する。
     - ![pending](../image/image3-16-b.png)
   - コメントを書き終わったら「Finish your review」を押してレビューを送る。この時にレビューのコメントを入力し、状態として「Comment」「Approve」「Request changes」のいずれかを選ぶことができる(自分自身へのレビューの場合は「Comment」しか選択できない)ので、状態を選択して「Submit review」を押す
     - ![Finish your review](../image/image3-16-c.png)
-- １８. レビューを確認し、対応する
+- ９. レビューを確認し、対応する
   - Conversationタブでレビュー内容を確認して、修正を行う(修正内容をコミットし、プッシュする)
   - レビューに返信する
   - レビュアーはコメントを確認して、問題なければ「Resolve conversation」を押して解決済みにする
   - ![resolve conversation](../image/image3-16-d.png)
-- １９. レビューで変更提案を出す
+- １０. レビューで変更提案を出す
   - ツールチップを利用するか、[suggestionコードブロック](./suggestion.md)を直接入力する
   - ![suggestion](../image/image3-17.png)
   - 「Add single comment」か「Start a review」ボタンを選択する。「Add single comment」ボタンを押すと即座に提案が送られるが、「Start a review」を押すと以下のようにpending状態になるので、「Finish your review」を押して提案を送る。
     - ![pending review](../image/image3-17-a.png)
   - 提案を取り入れると即座に内容がコミットされることを確認する
     - ![commit suggestion](../image/image3-18.png)
-- ２０. Pull requestのメタデータの「Development」からIssue #2を追加でリンクしてみる
+- １１. Pull requestのメタデータの「Development」からIssue #2を追加でリンクしてみる
   - ![link issue to pull request](../image/image3-19.png)
-- ２１. Pull requestをApproveし、マージする
+- １２. Pull requestをApproveし、マージする
   - レビュアーは自分がコメントしたものが全て解決され、修正内容が問題ないと判断したらApproveする
   - Files changedタブの「Review changes」から「Approve」を選択して「Submit review」を押す
     - ![approve](../image/image3-19-a.png)
   - 全てのレビュアーがApproveしたら、Conversationタブの下の方の「Merge pull request」を押してマージする
     - ![merge](../image/image3-19-b.png)
     - 続けて「Confirm merge」を押してマージを完了する
-- ２２. マージしたらPull requestがクローズされてIssueの#1/#2もクローズされることを確認する
+- １３. マージしたらPull requestがクローズされてIssueの#1/#2もクローズされることを確認する
   - マージでクローズしたPull requestは再オープンができないことを確認する
-- ２３. Pull requestテンプレートを作って、テンプレートを使ったpull requestを作ってみる
+- １４. Pull requestテンプレートを作って、テンプレートを使ったpull requestを作ってみる
   - `.github/pull_request_template.md`を作成する
   - [サンプルテンプレート](./pull_request_template.md)を貼り付けてコミットする
   - 再度READMEを更新してpull requestを作成し、Descriptionにテンプレートの内容が含まれていることを確認する
@@ -140,30 +140,30 @@ Pull requestの作成と操作について確認する。
 
 Discussionsについて確認する。
 
-- ２４. `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsを有効化する
+- １. `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからDiscussionsを有効化する
   - ![Settings](../image/image3-20.png)
   - ![Discussions](../image/image3-21.png)
-- ２５. ナビゲーションにDiscussionsが表示されることを確認する
+- ２. ナビゲーションにDiscussionsが表示されることを確認する
   - ![Discussions on navigation](../image/image3-21-a.png)
-- ２６. Discussionsにアクセスする
-- ２７. カテゴリがあることを確認する
-- ２８. カテゴリ「Q&A」でスレッド(Discussion)を作る
+- ３. Discussionsにアクセスする
+- ４. カテゴリがあることを確認する
+- ５. カテゴリ「Q&A」でスレッド(Discussion)を作る
   - 「New discussion」ボタンを押す
     - ![New discussion](../image/image3-21-b.png)
   - 「Select a discussion category」画面で「Q&A」の「Get started」を押す
     - ![Select a discussion category](../image/image3-21-c.png)
   - TitleとBodyを入力して「Start discussion」を押す
     - ![Start discussion](../image/image3-21-d.png)
-- ２９. 回答を書き込んでみる
+- ６. 回答を書き込んでみる
   - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、先ほど作成したDiscussionにアクセスする
   - 回答を書き込み、「Comment」ボタンを押す
     - ![Write a comment](../image/image3-21-e.png)
-- ３０. 回答とマークしてみる
+- ７. 回答とマークしてみる
   - このQ&Aの回答として採用したいコメントの「Mark as answer」を押す
     - ![Mark as answer](../image/image3-21-f.png)
   - マークされたコメントが回答として表示されることを確認する
     - ![Answer](../image/image3-21-g.png)
-- ３１. ピン留めしてみる
+- ８. ピン留めしてみる
   - 「Pin discussion」と「Pin discussion to Q&A」の2つがあることを確認する
     - ![pin discussion](../image/image3-21-h.png)
   - 「Pin discussion」を押すと背景を選ぶ画面になるので、選択して「Pin discussion」を押してピン留めする
@@ -178,11 +178,11 @@ Discussionsについて確認する。
   - ナビゲーションのDiscussionsからDiscussionの一覧に遷移し、一覧表示ではピン留めされていないことを確認する
   - 「Categories」で「Q&A」を選択する。Q&Aカテゴリの一覧で、「Pinned to Q&A」と表示されているのを確認する
     - ![pinned discussion to Q&A](../image/image3-21-m.png)
-- ３２. 時間に余裕があれば複数の「Q&A」カテゴリのDiscussionを作成してみて、ピン留めされたものが一番上に来ることを確認する
+- ９. 時間に余裕があれば複数の「Q&A」カテゴリのDiscussionを作成してみて、ピン留めされたものが一番上に来ることを確認する
   - カテゴリを選んだ状態で「New discussion」を押してDiscussionを作成すると、そのカテゴリに属するDiscussionが作成される(先ほどのカテゴリ選択画面が表示されない)ことを確認する
   - 新しいDiscussionを作成した後、ナビゲーションのDiscussionsを押し、CategoriesからQ&Aを選択して「Q&A」カテゴリの一覧を表示すると、以下のようにカテゴリにピン留めされたものが一番上に来ていることが分かる
     - ![Create another discussion](../image/image3-21-n.png)
-- ３３. DiscussionからIssueを作成してみる
+- １０. DiscussionからIssueを作成してみる
   - Discussionに移動し、「Create issue from discussion」を押す
     - ![Create issue from discussion](../image/image3-22.png)
 
