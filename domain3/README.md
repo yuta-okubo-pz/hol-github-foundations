@@ -190,10 +190,10 @@ Discussionsについて確認する。
 
 通知について確認する。
 
-- ３４. github.comの任意のページから、画面右上のファイルボックスのアイコンを押して通知画面を開き、届いている通知一覧を見る
+- １. github.comの任意のページから、画面右上のファイルボックスのアイコンを押して通知画面を開き、届いている通知一覧を見る
   - 開くとInboxの一覧が表示される
   - ![notifications](../image/image3-31.png)
-- ３５. 自身のsubscribe状態を確認・変更する
+- ２. 自身のsubscribe状態を確認・変更する
   - 通知画面の左下にある「Manage notifications」を押し、「Subscriptions」を選択する
     - ![Subscriptions](../image/image3-31-a.png)
   - これまでに作成したIssueやPull request、DiscussionにSubscribeしていることを確認する
@@ -204,9 +204,9 @@ Discussionsについて確認する。
     - ![notification of issue](../image/image3-32.png)
   - Unsubscribeボタンを押してみる
   - Subscriptionの一覧に戻り、該当のIssueが一覧に無いことを確認する
-- ３６. `foundations-hands-on-2`のナビゲーションのCodeに移動し、「Watch」ボタンで何が選べるかを確認する
+- ３. `foundations-hands-on-2`のナビゲーションのCodeに移動し、「Watch」ボタンで何が選べるかを確認する
   - ![watch of repository](../image/image3-33.png)
-- ３７. github.comの任意のページで、右上のアカウントアイコンをクリックする
+- ４. github.comの任意のページで、右上のアカウントアイコンをクリックする
   - ![account icon](../image/image2-7.png)
   - 「Settings」を押す
     - ![settings](../image/image3-33-a.png)
@@ -218,16 +218,16 @@ Discussionsについて確認する。
 
 Gistについて確認する。
 
-- ３８. github.comの任意のページからアカウントアイコンを押す
+- １. github.comの任意のページからアカウントアイコンを押す
   - ![account icon](../image/image2-7.png)
   - 「Your Gists」を押す
     - ![your gist](../image/image3-23.png)
-- ３９. 右上の「＋」ボタンを押して新しいGistを作る
+- ２. 右上の「＋」ボタンを押して新しいGistを作る
   - 「Filename including extension」に`foundations-hands-on-1.md`と入力
   - ファイルの内容を書く
   - 「Create secret gist」ボタンを押す
   - ![create secret gist](../image/image3-23-a.png)
-- ４０. gistをPublicにしてみる
+- ３. gistをPublicにしてみる
   - 対象のgistを開いた状態で、右上の「Edit」ボタンを押す
     - ![edit gist](../image/image3-24.png)
   - 右上の「Make public」ボタンを押す
@@ -235,7 +235,7 @@ Gistについて確認する。
     - ![browser alert](../image/image3-25-a.png)
   - Publicになったgistの右上の「Edit」ボタンを押す
   - Secretに切り替えるボタンがないことを確認する
-- ４１. fork/cloneのやり方を確認する
+- ４. fork/cloneのやり方を確認する
   - 対象のgistを開いた状態で、右上の「Embed」のプルダウンから「Clone via HTTPS」を押して、クローンする
     - ![embed](../image/image3-26.png)
   - 自身のものはforkできないので、[rxaviers/gist:7360908](https://gist.github.com/rxaviers/7360908)にアクセスする
@@ -248,7 +248,7 @@ Gistについて確認する。
 
 Wikiについて確認する。
 
-- ４２. `foundations-hands-on-2`リポジトリのナビゲーションのWikiからWikiにアクセスして、読み書きしてみる
+- １. `foundations-hands-on-2`リポジトリのナビゲーションのWikiからWikiにアクセスして、読み書きしてみる
   - 「Create the first page」を押す
     - ![Create the first page](../image/image3-27-b.png)
   - Title(デフォルトで「Home」と入っている)とページの本文(デフォルトで「Welcome to the foundations-hands-on-2 wiki!」と入っている)を編集する。「Edit message」はWikiのページを作成・編集したときに履歴に残す説明メッセージなので適宜入力する。
@@ -264,22 +264,22 @@ Wikiについて確認する。
     - ![Save sidebar page](../image/image3-27-g.png)
   - Pagesの下にsidebarが表示されていることを確認する
     - ![sidebar](../image/image3-27-h.png)
-- ４３. ナビゲーションのSettings > FeaturesでWikiの権限を見てみる
+- ２. ナビゲーションのSettings > FeaturesでWikiの権限を見てみる
   - 「Restrict editing to collaborators only」がチェックされていると、collaboratorのみが編集できる。GitHubアカウントを持つユーザーならだれでも編集できるようにするにはチェックを外す
     - ![Restrict editing to collaborators only](../image/image3-28.png)
-- ４４. ナビゲーションのSettings > Featuresから、Wikiを無効化してみる
+- ３. ナビゲーションのSettings > Featuresから、Wikiを無効化してみる
   - 「Wikis」のチェックを外すと、ナビゲーションからWikiが消えていることを確認する
 
 ## Pagesについて
 
 GitHub Pagesについて確認する。
 
-- ４５. `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからPagesを構成する  
+- １. `foundations-hands-on-2`リポジトリのナビゲーションのSettingsからPagesを構成する  
   - Sourceに「Deploy from branch」を選び、Branchで`main`を選択し、ディレクトリとして「/(root)」が選択されていることを確認し、「Save」ボタンを押して保存する
   - ![github pages](../image/image3-29.png)
-- ４６. しばらくしてこのGitHub Pagesの設定ページをリロードすると、公開されたPagesのURLが表示されるので、URLのリンクまたは「Visit site」ボタンからアクセスする。`README.md`ファイルが静的サイトとして展開されていることを確認する
+- ２. しばらくしてこのGitHub Pagesの設定ページをリロードすると、公開されたPagesのURLが表示されるので、URLのリンクまたは「Visit site」ボタンからアクセスする。`README.md`ファイルが静的サイトとして展開されていることを確認する
   - ![access github pages](../image/image3-30.png)
-- ４７. この`foundations-hands-on-2`リポジトリに新しく`index.html`という名前のファイルを作成する
+- ３. この`foundations-hands-on-2`リポジトリに新しく`index.html`という名前のファイルを作成する
   - 以下の内容を貼り付けてファイルを新規に作成する
 
     ```html
@@ -296,7 +296,7 @@ GitHub Pagesについて確認する。
     ```
 
   - ファイルを追加後、しばらくして再度PagesのURLにアクセスして、作成した`index.html`の内容が展開されていることを確認する
-- ４８. もう一つのデプロイ方法を確認するため、Settings > PagesのSourceのプルダウンを開き、「GitHub Action」の選択肢があることを確認する
+- ４. もう一つのデプロイ方法を確認するため、Settings > PagesのSourceのプルダウンを開き、「GitHub Action」の選択肢があることを確認する
 
 ---
 
