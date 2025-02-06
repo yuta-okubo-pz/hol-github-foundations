@@ -10,7 +10,7 @@ Issueの作成と操作について確認する。
   - 「README.mdの更新」というtitleにする
   - 「Submit new issue」ボタンを押してIssueを作成する
 - ３. 作成したIssueの画面を見る。右側にメタデータがあることを確認し、それぞれが何を表しているかを確認する。
-  - メタデータのDevelopmentから`foundations-hands-on-2`リポジトリを選択し、`update-readme`ブランチを選択し、「Apply」を押してブランチと紐付けてみる
+  - メタデータのDevelopmentから`foundations-hands-on-2`リポジトリを選択し、`update-readme-2`ブランチを選択し、「Apply」を押してブランチと紐付けてみる
   - ![development](../image/image3-2.png)
   - ピン留めしてみる
   - ![pin issue](../image/image3-3.png)
