@@ -64,7 +64,7 @@ GitHub Copilot Code completion（コード補完）の動作を確認する。
 
 ## GitHub Codespaces
 
-GitHub Codespacesについて確認する。各個人がPublicに作成したリポジトリ上での利用であれば無料枠内で利用できるが、アカウントの制限でプライベートリポジトリしか作れない等でCodespacesを利用できない場合は講師のデモを見る。
+GitHub Codespacesについて確認する。
 
 - １. ブラウザで自身のアカウントの配下に作成した`hol-javascript-calculator`リポジトリを開き、ナビゲーションのCodeを開く
 - ２. 「Code」ボタンのプルダウンからCodespacesタブの「Create codespace on main」ボタンでcodespaceを開いてみる  
@@ -78,7 +78,7 @@ GitHub Codespacesについて確認する。各個人がPublicに作成したリ
   - ![codespaceを停止する](../image/image4-4.png)
 - ９. 停止から再度アクセスすると、ターミナルの履歴が消えていることを確認する
 - １０. 削除してみる
-  - 無料枠を超えると課金が発生するため、不要なcodespaceは**必ず削除する**
+  - 停止をしただけでは、ストレージ使用量が引き続き消費されるため、不要なcodespaceは**必ず削除する**
 
 github.devを確認する。
 
