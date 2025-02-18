@@ -64,6 +64,7 @@ GitHub Copilot Code completion（コード補完）の動作を確認する。
 
 ## GitHub Codespaces
 
+GitHub Codespacesについて確認する。ネットワークの制限などでCodespacesを利用できない場合は講師のデモを見る。
 GitHub Codespacesについて確認する。
 
 - １. ブラウザで自身のアカウントの配下に作成した`hol-javascript-calculator`リポジトリを開き、ナビゲーションのCodeを開く
