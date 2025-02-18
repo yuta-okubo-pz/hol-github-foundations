@@ -81,6 +81,10 @@ Pull requestの作成と操作について確認する。
 - ４. 作成したブランチからPull requestを作る
   - ナビゲーションのPull requestsから「New Pull request」を押す
   - ![new pull request](../image/image3-13.png)
+  - Compare changes で比較ブランチを 3. で作成したブランチに切り替える
+  - ![compare changes](../image/image3-13-a.png)
+  - `Create pull request` を押して作成画面に遷移する
+  - ![create pull request](../image/image3-13-b.png)
   - タイトルに`Update README.md`を入れる
   - Descriptionは適宜入力しつつ、`Close #1`を入れる(もし作成したIssueの番号がずれてるなら#の後ろの数字を変える。#を入れたら補完が効く)
   - 「Create pull request」ボタンの右の「▼」を押し、draftで作成することもできることを確認する
